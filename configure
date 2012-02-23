@@ -34,7 +34,7 @@ clean: # Nothing to do
 
 install:
 \tmkdir -p ${{XMLINSTALLDIR}}
-\tcp ${{XMLSRCDIR}}/*.xml ${{XMLINSTALLDIR}}
+\tcp ${{XMLSRCDIR}}/*.xml ${{XMLSRCDIR}}/*.dtd ${{XMLINSTALLDIR}}
 """
         if self.uses_pkgconfig:
             template += """\
