@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<!-- Note: no GLX protocol info yet. -->
+
+
+<OpenGLAPI>
+
+<category name="GL_ARB_map_buffer_alignment" number="113">
+
+  <enum name="MIN_MAP_BUFFER_ALIGNMENT"                        value="0x90BC"/>
+
+</category>
+
+</OpenGLAPI>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_ATI_texture_compression_3dc">
+
+  <enum name="COMPRESSED_LUMINANCE_ALPHA_3DC_ATI" value="0x8837"/>
+
+</category>
+
+</OpenGLAPI>
