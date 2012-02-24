@@ -7438,6 +7438,9 @@
         <return type="GLboolean"/>
         <glx ignore="true"/>
     </function>
+
+    <enum name="ARRAY_BUFFER_ARB" value="0x8892"/>
+    <enum name="ELEMENT_ARRAY_BUFFER_ARB" value="0x8893"/>
 </category>
 
 <category name="GL_ARB_occlusion_query" number="29">
@@ -9788,6 +9791,16 @@
         <param name="pointer" type="const GLvoid *"/>
         <glx handcode="true"/>
     </function>
+
+    <enum name="FOG_COORDINATE_SOURCE_EXT"      value="0x8450"/>
+    <enum name="FOG_COORDINATE_EXT"             value="0x8451"/>
+    <enum name="FRAGMENT_DEPTH_EXT"             value="0x8452"/>
+    <enum name="CURRENT_FOG_COORDINATE_EXT"     value="0x8453"/>
+    <enum name="FOG_COORDINATE_ARRAY_TYPE_EXT"  value="0x8454"/>
+    <enum name="FOG_COORDINATE_ARRAY_STRIDE_EXT" value="0x8455"/>
+    <enum name="FOG_COORDINATE_ARRAY_POINTER_EXT" value="0x8456"/>
+    <enum name="FOG_COORDINATE_ARRAY_EXT"       value="0x8457"/>
+
 </category>
 
 <!-- Extension number 150 is not listed in the extension registry. -->
@@ -10015,6 +10028,23 @@
         <param name="stride" type="GLsizei"/>
         <param name="pointer" type="const GLvoid *"/>
     </function>
+    <enum name="RESTART_SUN"                    value="0x0001"/>
+    <enum name="REPLACE_MIDDLE_SUN"             value="0x0002"/>
+    <enum name="REPLACE_OLDEST_SUN"             value="0x0003"/>
+    <enum name="TRIANGLE_LIST_SUN"              value="0x81D7"/>
+    <enum name="REPLACEMENT_CODE_SUN"           value="0x81D8"/>
+    <enum name="REPLACEMENT_CODE_ARRAY_SUN"     value="0x85C0"/>
+    <enum name="REPLACEMENT_CODE_ARRAY_TYPE_SUN" value="0x85C1"/>
+    <enum name="REPLACEMENT_CODE_ARRAY_STRIDE_SUN" value="0x85C2"/>
+    <enum name="REPLACEMENT_CODE_ARRAY_POINTER_SUN" value="0x85C3"/>
+    <enum name="R1UI_V3F_SUN"                   value="0x85C4"/>
+    <enum name="R1UI_C4UB_V3F_SUN"              value="0x85C5"/>
+    <enum name="R1UI_C3F_V3F_SUN"               value="0x85C6"/>
+    <enum name="R1UI_N3F_V3F_SUN"               value="0x85C7"/>
+    <enum name="R1UI_C4F_N3F_V3F_SUN"           value="0x85C8"/>
+    <enum name="R1UI_T2F_V3F_SUN"               value="0x85C9"/>
+    <enum name="R1UI_T2F_N3F_V3F_SUN"           value="0x85CA"/>
+    <enum name="R1UI_T2F_C4F_N3F_V3F_SUN"       value="0x85CB"/>
 </category>
 
 <category name="GL_SUN_vertex" number="166">
@@ -10589,6 +10619,7 @@
 
 <category name="GL_NV_texture_env_combine4" number="195">
     <enum name="COMBINE4"                                 value="0x8503"/>
+    <enum name="COMBINE4_NV"                              value="0x8503"/>
     <enum name="SOURCE3_RGB_NV"                count="1"  value="0x8583">
         <size name="TexEnvfv"/>
         <size name="TexEnviv"/>
@@ -12425,5 +12456,25 @@
 <xi:include href="ARB_vertex_type_2_10_10_10_rev.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
 <xi:include href="ARB_texture_rgb10_a2ui.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_blend_func_extended.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NVX_gpu_memory_info.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_pixel_buffer_object.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_half_float_pixel.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_abgr.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_texture_rg.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_texture_sRGB.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_texture_snorm.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_bgra.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_texture_swizzle.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
 </OpenGLAPI>
