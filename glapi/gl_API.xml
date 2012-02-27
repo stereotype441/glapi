@@ -12477,4 +12477,6 @@
 
 <xi:include href="EXT_texture_swizzle.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
+<xi:include href="ATI_texture_compression_3dc.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
 </OpenGLAPI>
