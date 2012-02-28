@@ -42,11 +42,6 @@
     <return type="GLuint"/>
   </function>
 
-  <function name="GetPointerv">
-    <param name="pname" type="GLenum"/>
-    <param name="params" type="GLvoid **"/>
-  </function>
-
   <enum name="DEBUG_OUTPUT_SYNCHRONOUS_ARB"                     value="0x8242"/>
   <enum name="MAX_DEBUG_MESSAGE_LENGTH_ARB"                     value="0x9143"/>
   <enum name="MAX_DEBUG_LOGGED_MESSAGES_ARB"                    value="0x9144"/>
