@@ -5,6 +5,8 @@
 
 <category name="GL_ARB_debug_output" number="104">
 
+  <type name="DEBUGPROCARB" size="8"/>
+
   <function name="DebugMessageControlARB">
     <param name="source" type="GLenum"/>
     <param name="type" type="GLenum"/>
