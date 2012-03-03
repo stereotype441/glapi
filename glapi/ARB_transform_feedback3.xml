@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_ARB_transform_feedback3" number="94">
+
+  <function name="DrawTransformFeedbackStream">
+    <param name="mode" type="GLenum"/>
+    <param name="id" type="GLuint"/>
+    <param name="stream" type="GLuint"/>
+  </function>
+
+  <function name="BeginQueryIndexed">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="id" type="GLuint"/>
+  </function>
+
+  <function name="EndQueryIndexed">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+  </function>
+
+  <function name="GetQueryIndexediv">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLint *"/>
+  </function>
+
+  <enum name="MAX_TRANSFORM_FEEDBACK_BUFFERS"                    value="0x8E70"/>
+  <enum name="MAX_VERTEX_STREAMS"                                value="0x8E71"/>
+
+</category>
+
+</OpenGLAPI>

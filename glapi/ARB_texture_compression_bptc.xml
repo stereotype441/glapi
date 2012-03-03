@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_ARB_texture_compression_bptc" number="77">
+
+  <enum name="COMPRESSED_RGBA_BPTC_UNORM_ARB"                 value="0x8E8C"/>
+  <enum name="COMPRESSED_SRGB_ALPHA_BPTC_UNORM_ARB"           value="0x8E8D"/>
+  <enum name="COMPRESSED_RGB_BPTC_SIGNED_FLOAT_ARB"           value="0x8E8E"/>
+  <enum name="COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_ARB"         value="0x8E8F"/>
+
+</category>
+
+</OpenGLAPI>

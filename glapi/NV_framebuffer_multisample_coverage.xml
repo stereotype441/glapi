@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_framebuffer_multisample_coverage" number="336">
+
+  <function name="RenderbufferStorageMultisampleCoverageNV">
+    <param name="target" type="GLenum"/>
+    <param name="coverageSamples" type="GLsizei"/>
+    <param name="colorSamples" type="GLsizei"/>
+    <param name="internalformat" type="GLenum"/>
+    <param name="width" type="GLsizei"/>
+    <param name="height" type="GLsizei"/>
+  </function>
+
+  <enum name="RENDERBUFFER_COVERAGE_SAMPLES_NV"         value="0x8CAB"/>
+  <enum name="RENDERBUFFER_COLOR_SAMPLES_NV"            value="0x8E10"/>
+  <enum name="MAX_MULTISAMPLE_COVERAGE_MODES_NV"        value="0x8E11"/>
+  <enum name="MULTISAMPLE_COVERAGE_MODES_NV"            value="0x8E12"/>
+
+</category>
+
+</OpenGLAPI>

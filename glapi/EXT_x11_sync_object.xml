@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_EXT_x11_sync_object" number="406">
+
+  <function name="ImportSyncEXT">
+    <param name="external_sync_type" type="GLenum"/>
+    <param name="external_sync" type="GLintptr"/>
+    <param name="flags" type="GLbitfield"/>
+    <return type="GLsync"/>
+  </function>
+
+  <enum name="SYNC_X11_FENCE_EXT"                         value="0x90E1"/>
+
+</category>
+
+</OpenGLAPI>

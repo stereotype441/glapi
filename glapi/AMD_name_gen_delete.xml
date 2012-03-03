@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_AMD_name_gen_delete" number="394">
+
+  <function name="GenNamesAMD">
+    <param name="identifier" type="GLenum"/>
+    <param name="num" type="GLuint"/>
+    <param name="names" type="GLuint *"/>
+  </function>
+
+  <function name="DeleteNamesAMD">
+    <param name="identifier" type="GLenum"/>
+    <param name="num" type="GLuint"/>
+    <param name="names" type="const GLuint *"/>
+  </function>
+
+  <function name="IsNameAMD">
+    <param name="identifier" type="GLenum"/>
+    <param name="name" type="GLuint"/>
+    <return type="GLboolean"/>
+  </function>
+
+  <enum name="DATA_BUFFER_AMD"                               value="0x9151"/>
+  <enum name="PERFORMANCE_MONITOR_AMD"                       value="0x9152"/>
+  <enum name="QUERY_OBJECT_AMD"                              value="0x9153"/>
+  <enum name="VERTEX_ARRAY_OBJECT_AMD"                       value="0x9154"/>
+  <enum name="SAMPLER_OBJECT_AMD"                            value="0x9155"/>
+
+</category>
+
+</OpenGLAPI>

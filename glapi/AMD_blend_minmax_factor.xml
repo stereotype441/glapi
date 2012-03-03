@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_AMD_blend_minmax_factor" number="404">
+
+  <enum name="FACTOR_MIN_AMD"                              value="0x901C"/>
+  <enum name="FACTOR_MAX_AMD"                              value="0x901D"/>
+
+</category>
+
+</OpenGLAPI>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_present_video" number="347">
+
+  <function name="PresentFrameKeyedNV">
+    <param name="video_slot" type="GLuint"/>
+    <param name="minPresentTime" type="GLuint64EXT"/>
+    <param name="beginPresentTimeId" type="GLuint"/>
+    <param name="presentDurationId" type="GLuint"/>
+    <param name="type" type="GLenum"/>
+    <param name="target0" type="GLenum"/>
+    <param name="fill0" type="GLuint"/>
+    <param name="key0" type="GLuint"/>
+    <param name="target1" type="GLenum"/>
+    <param name="fill1" type="GLuint"/>
+    <param name="key1" type="GLuint"/>
+  </function>
+
+  <function name="PresentFrameDualFillNV">
+    <param name="video_slot" type="GLuint"/>
+    <param name="minPresentTime" type="GLuint64EXT"/>
+    <param name="beginPresentTimeId" type="GLuint"/>
+    <param name="presentDurationId" type="GLuint"/>
+    <param name="type" type="GLenum"/>
+    <param name="target0" type="GLenum"/>
+    <param name="fill0" type="GLuint"/>
+    <param name="target1" type="GLenum"/>
+    <param name="fill1" type="GLuint"/>
+    <param name="target2" type="GLenum"/>
+    <param name="fill2" type="GLuint"/>
+    <param name="target3" type="GLenum"/>
+    <param name="fill3" type="GLuint"/>
+  </function>
+
+  <function name="GetVideoivNV">
+    <param name="video_slot" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLint *"/>
+  </function>
+
+  <function name="GetVideouivNV">
+    <param name="video_slot" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLuint *"/>
+  </function>
+
+  <function name="GetVideoi64vNV">
+    <param name="video_slot" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLint64EXT *"/>
+  </function>
+
+  <function name="GetVideoui64vNV">
+    <param name="video_slot" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLuint64EXT *"/>
+  </function>
+
+  <enum name="FRAME_NV"                        value="0x8E26"/>
+  <enum name="FIELDS_NV"                       value="0x8E27"/>
+  <enum name="CURRENT_TIME_NV"                 value="0x8E28"/>
+  <enum name="NUM_FILL_STREAMS_NV"             value="0x8E29"/>
+  <enum name="PRESENT_TIME_NV"                 value="0x8E2A"/>
+  <enum name="PRESENT_DURATION_NV"             value="0x8E2B"/>
+  <enum name="GLX_NUM_VIDEO_SLOTS_NV"          value="0x20F0"/>
+  <enum name="WGL_NUM_VIDEO_SLOTS_NV"          value="0x20F0"/>
+
+</category>
+
+</OpenGLAPI>

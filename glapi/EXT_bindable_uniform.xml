@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_EXT_bindable_uniform" number="342">
+
+  <function name="UniformBufferEXT">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="buffer" type="GLuint"/>
+  </function>
+
+  <function name="GetUniformBufferSizeEXT">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <return type="GLint"/>
+  </function>
+
+  <function name="GetUniformOffsetEXT">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <return type="GLintptr"/>
+  </function>
+
+  <enum name="MAX_VERTEX_BINDABLE_UNIFORMS_EXT"                value="0x8DE2"/>
+  <enum name="MAX_FRAGMENT_BINDABLE_UNIFORMS_EXT"              value="0x8DE3"/>
+  <enum name="MAX_GEOMETRY_BINDABLE_UNIFORMS_EXT"              value="0x8DE4"/>
+  <enum name="MAX_BINDABLE_UNIFORM_SIZE_EXT"                   value="0x8DED"/>
+  <enum name="UNIFORM_BUFFER_BINDING_EXT"                      value="0x8DEF"/>
+  <enum name="UNIFORM_BUFFER_EXT"                              value="0x8DEE"/>
+
+</category>
+
+</OpenGLAPI>

@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_AMD_debug_output" number="395">
+
+  <function name="DebugMessageEnableAMD">
+    <param name="category" type="GLenum"/>
+    <param name="severity" type="GLenum"/>
+    <param name="count" type="GLsizei"/>
+    <param name="ids" type="const GLuint*"/>
+    <param name="enabled" type="GLboolean"/>
+  </function>
+
+  <function name="DebugMessageInsertAMD">
+    <param name="category" type="GLenum"/>
+    <param name="severity" type="GLenum"/>
+    <param name="id" type="GLuint"/>
+    <param name="length" type="GLsizei"/>
+    <param name="buf" type="const GLchar*"/>
+  </function>
+
+  <function name="DebugMessageCallbackAMD">
+    <param name="callback" type="GLDEBUGPROCAMD"/>
+    <param name="userParam" type="GLvoid*"/>
+  </function>
+
+  <function name="GetDebugMessageLogAMD">
+    <param name="count" type="GLuint"/>
+    <param name="bufsize" type="GLsizei"/>
+    <param name="categories" type="GLenum*"/>
+    <param name="severities" type="GLuint*"/>
+    <param name="ids" type="GLuint*"/>
+    <param name="lengths" type="GLsizei*"/>
+    <param name="message" type="GLchar*"/>
+    <return type="GLuint"/>
+  </function>
+
+  <enum name="MAX_DEBUG_MESSAGE_LENGTH_AMD"                    value="0x9143"/>
+  <enum name="MAX_DEBUG_LOGGED_MESSAGES_AMD"                   value="0x9144"/>
+  <enum name="DEBUG_LOGGED_MESSAGES_AMD"                       value="0x9145"/>
+  <enum name="DEBUG_SEVERITY_HIGH_AMD"                         value="0x9146"/>
+  <enum name="DEBUG_SEVERITY_MEDIUM_AMD"                       value="0x9147"/>
+  <enum name="DEBUG_SEVERITY_LOW_AMD"                          value="0x9148"/>
+  <enum name="DEBUG_CATEGORY_API_ERROR_AMD"                    value="0x9149"/>
+  <enum name="DEBUG_CATEGORY_WINDOW_SYSTEM_AMD"                value="0x914A"/>
+  <enum name="DEBUG_CATEGORY_DEPRECATION_AMD"                  value="0x914B"/>
+  <enum name="DEBUG_CATEGORY_UNDEFINED_BEHAVIOR_AMD"           value="0x914C"/>
+  <enum name="DEBUG_CATEGORY_PERFORMANCE_AMD"                  value="0x914D"/>
+  <enum name="DEBUG_CATEGORY_SHADER_COMPILER_AMD"              value="0x914E"/>
+  <enum name="DEBUG_CATEGORY_APPLICATION_AMD"                  value="0x914F"/>
+  <enum name="DEBUG_CATEGORY_OTHER_AMD"                        value="0x9150"/>
+
+</category>
+
+</OpenGLAPI>

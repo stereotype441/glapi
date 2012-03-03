@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_texture_multisample" number="403">
+
+  <function name="TexImage2DMultisampleCoverageNV">
+    <param name="target" type="GLenum"/>
+    <param name="coverageSamples" type="GLsizei"/>
+    <param name="colorSamples" type="GLsizei"/>
+    <param name="internalFormat" type="GLint"/>
+    <param name="width" type="GLsizei"/>
+    <param name="height" type="GLsizei"/>
+    <param name="fixedSampleLocations" type="GLboolean"/>
+  </function>
+
+  <function name="TexImage3DMultisampleCoverageNV">
+    <param name="target" type="GLenum"/>
+    <param name="coverageSamples" type="GLsizei"/>
+    <param name="colorSamples" type="GLsizei"/>
+    <param name="internalFormat" type="GLint"/>
+    <param name="width" type="GLsizei"/>
+    <param name="height" type="GLsizei"/>
+    <param name="depth" type="GLsizei"/>
+    <param name="fixedSampleLocations" type="GLboolean"/>
+  </function>
+
+  <function name="TextureImage2DMultisampleNV">
+    <param name="texture" type="GLuint"/>
+    <param name="target" type="GLenum"/>
+    <param name="samples" type="GLsizei"/>
+    <param name="internalFormat" type="GLint"/>
+    <param name="width" type="GLsizei"/>
+    <param name="height" type="GLsizei"/>
+    <param name="fixedSampleLocations" type="GLboolean"/>
+  </function>
+
+  <function name="TextureImage3DMultisampleNV">
+    <param name="texture" type="GLuint"/>
+    <param name="target" type="GLenum"/>
+    <param name="samples" type="GLsizei"/>
+    <param name="internalFormat" type="GLint"/>
+    <param name="width" type="GLsizei"/>
+    <param name="height" type="GLsizei"/>
+    <param name="depth" type="GLsizei"/>
+    <param name="fixedSampleLocations" type="GLboolean"/>
+  </function>
+
+  <function name="TextureImage2DMultisampleCoverageNV">
+    <param name="texture" type="GLuint"/>
+    <param name="target" type="GLenum"/>
+    <param name="coverageSamples" type="GLsizei"/>
+    <param name="colorSamples" type="GLsizei"/>
+    <param name="internalFormat" type="GLint"/>
+    <param name="width" type="GLsizei"/>
+    <param name="height" type="GLsizei"/>
+    <param name="fixedSampleLocations" type="GLboolean"/>
+  </function>
+
+  <function name="TextureImage3DMultisampleCoverageNV">
+    <param name="texture" type="GLuint"/>
+    <param name="target" type="GLenum"/>
+    <param name="coverageSamples" type="GLsizei"/>
+    <param name="colorSamples" type="GLsizei"/>
+    <param name="internalFormat" type="GLint"/>
+    <param name="width" type="GLsizei"/>
+    <param name="height" type="GLsizei"/>
+    <param name="depth" type="GLsizei"/>
+    <param name="fixedSampleLocations" type="GLboolean"/>
+  </function>
+
+  <enum name="TEXTURE_COVERAGE_SAMPLES_NV"              value="0x9045"/>
+  <enum name="TEXTURE_COLOR_SAMPLES_NV"                 value="0x9046"/>
+
+</category>
+
+</OpenGLAPI>

@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_video_capture" number="374">
+
+  <function name="BeginVideoCaptureNV">
+    <param name="video_capture_slot" type="GLuint"/>
+  </function>
+
+  <function name="BindVideoCaptureStreamBufferNV">
+    <param name="video_capture_slot" type="GLuint"/>
+    <param name="stream" type="GLuint"/>
+    <param name="frame_region" type="GLenum"/>
+    <param name="offset" type="GLintptrARB"/>
+  </function>
+
+  <function name="BindVideoCaptureStreamTextureNV">
+    <param name="video_capture_slot" type="GLuint"/>
+    <param name="stream" type="GLuint"/>
+    <param name="frame_region" type="GLenum"/>
+    <param name="target" type="GLenum"/>
+    <param name="texture" type="GLuint"/>
+  </function>
+
+  <function name="EndVideoCaptureNV">
+    <param name="video_capture_slot" type="GLuint"/>
+  </function>
+
+  <function name="GetVideoCaptureivNV">
+    <param name="video_capture_slot" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLint *"/>
+  </function>
+
+  <function name="GetVideoCaptureStreamivNV">
+    <param name="video_capture_slot" type="GLuint"/>
+    <param name="stream" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLint *"/>
+  </function>
+
+  <function name="GetVideoCaptureStreamfvNV">
+    <param name="video_capture_slot" type="GLuint"/>
+    <param name="stream" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLfloat *"/>
+  </function>
+
+  <function name="GetVideoCaptureStreamdvNV">
+    <param name="video_capture_slot" type="GLuint"/>
+    <param name="stream" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLdouble *"/>
+  </function>
+
+  <function name="VideoCaptureNV">
+    <param name="video_capture_slot" type="GLuint"/>
+    <param name="sequence_num" type="GLuint *"/>
+    <param name="capture_time" type="GLuint64EXT *"/>
+    <return type="GLenum"/>
+  </function>
+
+  <function name="VideoCaptureStreamParameterivNV">
+    <param name="video_capture_slot" type="GLuint"/>
+    <param name="stream" type="GLuint"/>
+    <param name="pname" type="GLGLenum"/>
+    <param name="params" type="const GLint *"/>
+  </function>
+
+  <function name="VideoCaptureStreamParameterfvNV">
+    <param name="video_capture_slot" type="GLuint"/>
+    <param name="stream" type="GLuint"/>
+    <param name="pname" type="GLGLenum"/>
+    <param name="params" type="const GLfloat *"/>
+  </function>
+
+  <function name="VideoCaptureStreamParameterdvNV">
+    <param name="video_capture_slot" type="GLuint"/>
+    <param name="stream" type="GLuint"/>
+    <param name="pname" type="GLGLenum"/>
+    <param name="params" type="const GLdouble *"/>
+  </function>
+
+  <enum name="VIDEO_BUFFER_NV"                            value="0x9020"/>
+  <enum name="VIDEO_BUFFER_BINDING_NV"                    value="0x9021"/>
+  <enum name="FIELD_UPPER_NV"                             value="0x9022"/>
+  <enum name="FIELD_LOWER_NV"                             value="0x9023"/>
+  <enum name="NUM_VIDEO_CAPTURE_STREAMS_NV"               value="0x9024"/>
+  <enum name="NEXT_VIDEO_CAPTURE_BUFFER_STATUS_NV"        value="0x9025"/>
+  <enum name="LAST_VIDEO_CAPTURE_STATUS_NV"               value="0x9027"/>
+  <enum name="VIDEO_BUFFER_PITCH_NV"                      value="0x9028"/>
+  <enum name="VIDEO_CAPTURE_FRAME_WIDTH_NV"               value="0x9038"/>
+  <enum name="VIDEO_CAPTURE_FRAME_HEIGHT_NV"              value="0x9039"/>
+  <enum name="VIDEO_CAPTURE_FIELD_UPPER_HEIGHT_NV"        value="0x903A"/>
+  <enum name="VIDEO_CAPTURE_FIELD_LOWER_HEIGHT_NV"        value="0x903B"/>
+  <enum name="VIDEO_CAPTURE_TO_422_SUPPORTED_NV"          value="0x9026"/>
+  <enum name="VIDEO_COLOR_CONVERSION_MATRIX_NV"           value="0x9029"/>
+  <enum name="VIDEO_COLOR_CONVERSION_MAX_NV"              value="0x902A"/>
+  <enum name="VIDEO_COLOR_CONVERSION_MIN_NV"              value="0x902B"/>
+  <enum name="VIDEO_COLOR_CONVERSION_OFFSET_NV"           value="0x902C"/>
+  <enum name="VIDEO_BUFFER_INTERNAL_FORMAT_NV"            value="0x902D"/>
+  <enum name="VIDEO_CAPTURE_SURFACE_ORIGIN_NV"            value="0x903C"/>
+  <enum name="PARTIAL_SUCCESS_NV"                         value="0x902E"/>
+  <enum name="SUCCESS_NV"                                 value="0x902F"/>
+  <enum name="FAILURE_NV"                                 value="0x9030"/>
+  <enum name="YCBYCR8_422_NV"                             value="0x9031"/>
+  <enum name="YCBAYCR8A_4224_NV"                          value="0x9032"/>
+  <enum name="Z6Y10Z6CB10Z6Y10Z6CR10_422_NV"              value="0x9033"/>
+  <enum name="Z6Y10Z6CB10Z6A10Z6Y10Z6CR10Z6A10_4224_NV"   value="0x9034"/>
+  <enum name="Z4Y12Z4CB12Z4Y12Z4CR12_422_NV"              value="0x9035"/>
+  <enum name="Z4Y12Z4CB12Z4A12Z4Y12Z4CR12Z4A12_4224_NV"   value="0x9036"/>
+  <enum name="Z4Y12Z4CB12Z4CR12_444_NV"                   value="0x9037"/>
+  <enum name="GLX_DEVICE_ID_NV"                           value="0x20CD"/>
+  <enum name="GLX_NUM_VIDEO_CAPTURE_SLOTS_NV"             value="0x20CF"/>
+  <enum name="GLX_UNIQUE_ID_NV"                           value="0x20CE"/>
+  <enum name="WGL_NUM_VIDEO_CAPTURE_SLOTS_NV"             value="0x20CF"/>
+  <enum name="WGL_UNIQUE_ID_NV"                           value="0x20CE"/>
+
+</category>
+
+</OpenGLAPI>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_parameter_buffer_object" number="339">
+
+  <function name="BindBufferRangeNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="buffer" type="GLuint"/>
+    <param name="offset" type="GLintptr"/>
+    <param name="size" type="GLsizeiptr"/>
+  </function>
+
+  <function name="BindBufferOffsetNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="buffer" type="GLuint"/>
+    <param name="offset" type="GLintptr"/>
+  </function>
+
+  <function name="BindBufferBaseNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="buffer" type="GLuint"/>
+  </function>
+
+  <function name="ProgramBufferParametersfvNV">
+    <param name="target" type="GLenum"/>
+    <param name="buffer" type="GLuint"/>
+    <param name="index" type="GLuint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="params" type="const GLfloat *"/>
+  </function>
+
+  <function name="ProgramBufferParametersIivNV">
+    <param name="target" type="GLenum"/>
+    <param name="buffer" type="GLuint"/>
+    <param name="index" type="GLuint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="params" type="const GLint *"/>
+  </function>
+
+  <function name="ProgramBufferParametersIuivNV">
+    <param name="target" type="GLenum"/>
+    <param name="buffer" type="GLuint"/>
+    <param name="index" type="GLuint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="params" type="const GLuint *"/>
+  </function>
+
+  <function name="GetIntegerIndexedvEXT">
+    <param name="value" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="data" type="GLboolean *"/>
+  </function>
+
+  <enum name="MAX_PROGRAM_PARAMETER_BUFFER_BINDINGS_NV"          value="0x8DA0"/>
+  <enum name="MAX_PROGRAM_PARAMETER_BUFFER_SIZE_NV"              value="0x8DA1"/>
+  <enum name="VERTEX_PROGRAM_PARAMETER_BUFFER_NV"                value="0x8DA2"/>
+  <enum name="GEOMETRY_PROGRAM_PARAMETER_BUFFER_NV"              value="0x8DA3"/>
+  <enum name="FRAGMENT_PROGRAM_PARAMETER_BUFFER_NV"              value="0x8DA4"/>
+
+</category>
+
+</OpenGLAPI>

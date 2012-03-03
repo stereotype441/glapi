@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_ARB_framebuffer_sRGB" number="46">
+
+  <enum name="GLX_FRAMEBUFFER_SRGB_CAPABLE_ARB"             value="0x20B2"/>
+  <enum name="WGL_FRAMEBUFFER_SRGB_CAPABLE_ARB"             value="0x20A9"/>
+  <enum name="FRAMEBUFFER_SRGB"                             value="0x8DB9"/>
+
+</category>
+
+</OpenGLAPI>

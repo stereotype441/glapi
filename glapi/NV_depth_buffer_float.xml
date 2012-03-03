@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_depth_buffer_float" number="334">
+
+  <function name="DepthRangedNV">
+    <param name="n" type="GLdouble"/>
+    <param name="f" type="GLdouble"/>
+  </function>
+
+  <function name="ClearDepthdNV">
+    <param name="d" type="GLdouble"/>
+  </function>
+
+  <function name="DepthBoundsdNV">
+    <param name="zmin" type="GLdouble"/>
+    <param name="zmax" type="GLdouble"/>
+  </function>
+
+  <enum name="DEPTH_COMPONENT32F_NV"                           value="0x8DAB"/>
+  <enum name="DEPTH32F_STENCIL8_NV"                            value="0x8DAC"/>
+  <enum name="FLOAT_32_UNSIGNED_INT_24_8_REV_NV"               value="0x8DAD"/>
+  <enum name="DEPTH_BUFFER_FLOAT_MODE_NV"                      value="0x8DAF"/>
+
+</category>
+
+</OpenGLAPI>

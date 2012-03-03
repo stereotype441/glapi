@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_vertex_buffer_unified_memory" number="380">
+
+  <function name="BufferAddressRangeNV">
+    <param name="pname" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="address" type="GLuint64EXT"/>
+    <param name="length" type="GLsizeiptr"/>
+  </function>
+
+  <function name="VertexFormatNV">
+    <param name="size" type="GLint"/>
+    <param name="type" type="GLenum"/>
+    <param name="stride" type="GLsizei"/>
+  </function>
+
+  <function name="NormalFormatNV">
+    <param name="type" type="GLenum"/>
+    <param name="stride" type="GLsizei"/>
+  </function>
+
+  <function name="ColorFormatNV">
+    <param name="size" type="GLint"/>
+    <param name="type" type="GLenum"/>
+    <param name="stride" type="GLsizei"/>
+  </function>
+
+  <function name="IndexFormatNV">
+    <param name="type" type="GLenum"/>
+    <param name="stride" type="GLsizei"/>
+  </function>
+
+  <function name="TexCoordFormatNV">
+    <param name="size" type="GLint"/>
+    <param name="type" type="GLenum"/>
+    <param name="stride" type="GLsizei"/>
+  </function>
+
+  <function name="EdgeFlagFormatNV">
+    <param name="stride" type="GLsizei"/>
+  </function>
+
+  <function name="SecondaryColorFormatNV">
+    <param name="size" type="GLint"/>
+    <param name="type" type="GLenum"/>
+    <param name="stride" type="GLsizei"/>
+  </function>
+
+  <function name="FogCoordFormatNV">
+    <param name="type" type="GLenum"/>
+    <param name="stride" type="GLsizei"/>
+  </function>
+
+  <function name="VertexAttribFormatNV">
+    <param name="index" type="GLuint"/>
+    <param name="size" type="GLint"/>
+    <param name="type" type="GLenum"/>
+    <param name="normalized" type="GLboolean"/>
+    <param name="stride" type="GLsizei"/>
+  </function>
+
+  <function name="VertexAttribIFormatNV">
+    <param name="index" type="GLuint"/>
+    <param name="size" type="GLint"/>
+    <param name="type" type="GLenum"/>
+    <param name="stride" type="GLsizei"/>
+  </function>
+
+  <function name="GetIntegerui64i_vNV">
+    <param name="value" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="result" type="GLuint64EXT *"/>
+  </function>
+
+  <enum name="VERTEX_ATTRIB_ARRAY_UNIFIED_NV"                 value="0x8F1E"/>
+  <enum name="ELEMENT_ARRAY_UNIFIED_NV"                       value="0x8F1F"/>
+  <enum name="VERTEX_ATTRIB_ARRAY_ADDRESS_NV"                 value="0x8F20"/>
+  <enum name="TEXTURE_COORD_ARRAY_ADDRESS_NV"                 value="0x8F25"/>
+  <enum name="VERTEX_ARRAY_ADDRESS_NV"                        value="0x8F21"/>
+  <enum name="NORMAL_ARRAY_ADDRESS_NV"                        value="0x8F22"/>
+  <enum name="COLOR_ARRAY_ADDRESS_NV"                         value="0x8F23"/>
+  <enum name="INDEX_ARRAY_ADDRESS_NV"                         value="0x8F24"/>
+  <enum name="EDGE_FLAG_ARRAY_ADDRESS_NV"                     value="0x8F26"/>
+  <enum name="SECONDARY_COLOR_ARRAY_ADDRESS_NV"               value="0x8F27"/>
+  <enum name="FOG_COORD_ARRAY_ADDRESS_NV"                     value="0x8F28"/>
+  <enum name="ELEMENT_ARRAY_ADDRESS_NV"                       value="0x8F29"/>
+  <enum name="VERTEX_ATTRIB_ARRAY_LENGTH_NV"                  value="0x8F2A"/>
+  <enum name="TEXTURE_COORD_ARRAY_LENGTH_NV"                  value="0x8F2F"/>
+  <enum name="VERTEX_ARRAY_LENGTH_NV"                         value="0x8F2B"/>
+  <enum name="NORMAL_ARRAY_LENGTH_NV"                         value="0x8F2C"/>
+  <enum name="COLOR_ARRAY_LENGTH_NV"                          value="0x8F2D"/>
+  <enum name="INDEX_ARRAY_LENGTH_NV"                          value="0x8F2E"/>
+  <enum name="EDGE_FLAG_ARRAY_LENGTH_NV"                      value="0x8F30"/>
+  <enum name="SECONDARY_COLOR_ARRAY_LENGTH_NV"                value="0x8F31"/>
+  <enum name="FOG_COORD_ARRAY_LENGTH_NV"                      value="0x8F32"/>
+  <enum name="ELEMENT_ARRAY_LENGTH_NV"                        value="0x8F33"/>
+
+</category>
+
+</OpenGLAPI>

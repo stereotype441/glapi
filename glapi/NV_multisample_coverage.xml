@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_multisample_coverage" number="393">
+
+  <enum name="GLX_COVERAGE_SAMPLES_NV"              value="100001"/>
+  <enum name="GLX_COLOR_SAMPLES_NV"                 value="0x20B3"/>
+  <enum name="WGL_COVERAGE_SAMPLES_NV"              value="0x2042"/>
+  <enum name="WGL_COLOR_SAMPLES_NV"                 value="0x20B9"/>
+  <enum name="COVERAGE_SAMPLES_NV"                  value="0x80A9"/>
+  <enum name="COLOR_SAMPLES_NV"                     value="0x8E20"/>
+
+</category>
+
+</OpenGLAPI>

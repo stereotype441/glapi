@@ -12981,4 +12981,72 @@
 
 <xi:include href="NV_transform_feedback.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
+<xi:include href="APPLE_vertex_program_evaluators.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="AMD_performance_monitor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_depth_buffer_float.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_parameter_buffer_object.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_depth_buffer_float.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_shading_language_include.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_framebuffer_sRGB.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_framebuffer_sRGB.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_texture_compression_rgtc.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_bindable_uniform.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_shader_subroutine.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_framebuffer_multisample_coverage.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_multisample_coverage.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_present_video.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_direct_state_access.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_texture_swizzle.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_texture_multisample.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_explicit_multisample.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_gpu_program5.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_transform_feedback3.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_texture_compression_bptc.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_shader_buffer_load.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_vertex_buffer_unified_memory.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_draw_indirect.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_gpu_shader_fp64.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="AMD_vertex_shader_tesselator.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="AMD_blend_minmax_factor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="AMD_depth_clamp_separate.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_video_capture.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_texture_multisample.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_framebuffer_multisample_blit_scaled.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_x11_sync_object.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="AMD_debug_output.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="AMD_name_gen_delete.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
 </OpenGLAPI>

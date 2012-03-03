@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_ARB_texture_swizzle" number="84">
+
+  <enum name="TEXTURE_SWIZZLE_R"                   value="0x8E42"/>
+  <enum name="TEXTURE_SWIZZLE_G"                   value="0x8E43"/>
+  <enum name="TEXTURE_SWIZZLE_B"                   value="0x8E44"/>
+  <enum name="TEXTURE_SWIZZLE_A"                   value="0x8E45"/>
+  <enum name="TEXTURE_SWIZZLE_RGBA"                value="0x8E46"/>
+
+</category>
+
+</OpenGLAPI>

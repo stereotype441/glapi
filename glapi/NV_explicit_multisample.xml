@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_explicit_multisample" number="357">
+
+  <function name="GetBooleanIndexedvEXT">
+    <param name="value" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="data" type="GLboolean *"/>
+  </function>
+
+  <function name="GetIntegerIndexedvEXT">
+    <param name="value" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="data" type="GLint *"/>
+  </function>
+
+  <function name="GetMultisamplefvNV">
+    <param name="pname" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="val" type="GLfloat *"/>
+  </function>
+
+  <function name="SampleMaskIndexedNV">
+    <param name="index" type="GLuint"/>
+    <param name="mask" type="GLbitfield"/>
+  </function>
+
+  <function name="TexRenderbufferNV">
+    <param name="target" type="GLenum"/>
+    <param name="renderbuffer" type="GLuint"/>
+  </function>
+
+  <enum name="SAMPLE_POSITION_NV"                          value="0x8E50"/>
+  <enum name="SAMPLE_MASK_NV"                              value="0x8E51"/>
+  <enum name="SAMPLE_MASK_VALUE_NV"                        value="0x8E52"/>
+  <enum name="TEXTURE_BINDING_RENDERBUFFER_NV"             value="0x8E53"/>
+  <enum name="TEXTURE_RENDERBUFFER_DATA_STORE_BINDING_NV"  value="0x8E54"/>
+  <enum name="MAX_SAMPLE_MASK_WORDS_NV"                    value="0x8E59"/>
+  <enum name="TEXTURE_RENDERBUFFER_NV"                     value="0x8E55"/>
+  <enum name="SAMPLER_RENDERBUFFER_NV"                     value="0x8E56"/>
+  <enum name="INT_SAMPLER_RENDERBUFFER_NV"                 value="0x8E57"/>
+  <enum name="UNSIGNED_INT_SAMPLER_RENDERBUFFER_NV"        value="0x8E58"/>
+
+</category>
+
+</OpenGLAPI>

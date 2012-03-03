@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_gpu_program5" number="388">
+
+  <enum name="MAX_GEOMETRY_PROGRAM_INVOCATIONS_NV"             value="0x8E5A"/>
+  <enum name="MIN_FRAGMENT_INTERPOLATION_OFFSET_NV"            value="0x8E5B"/>
+  <enum name="MAX_FRAGMENT_INTERPOLATION_OFFSET_NV"            value="0x8E5C"/>
+  <enum name="FRAGMENT_PROGRAM_INTERPOLATION_OFFSET_BITS_NV"   value="0x8E5D"/>
+  <enum name="MIN_PROGRAM_TEXTURE_GATHER_OFFSET_NV"            value="0x8E5E"/>
+  <enum name="MAX_PROGRAM_TEXTURE_GATHER_OFFSET_NV"            value="0x8E5F"/>
+
+</category>
+
+</OpenGLAPI>

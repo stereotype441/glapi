@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_shader_buffer_load" number="379">
+
+  <function name="MakeBufferResidentNV">
+    <param name="target" type="GLenum"/>
+    <param name="access" type="GLenum"/>
+  </function>
+
+  <function name="MakeBufferNonResidentNV">
+    <param name="target" type="GLenum"/>
+  </function>
+
+  <function name="IsBufferResidentNV">
+    <param name="target" type="GLenum"/>
+    <return type="GLboolean"/>
+  </function>
+
+  <function name="MakeNamedBufferResidentNV">
+    <param name="buffer" type="GLuint"/>
+    <param name="access" type="GLenum"/>
+  </function>
+
+  <function name="MakeNamedBufferNonResidentNV">
+    <param name="buffer" type="GLuint"/>
+  </function>
+
+  <function name="IsNamedBufferResidentNV">
+    <param name="buffer" type="GLuint"/>
+    <return type="GLboolean"/>
+  </function>
+
+  <function name="GetBufferParameterui64vNV">
+    <param name="target" type="GLenum"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLuint64EXT *"/>
+  </function>
+
+  <function name="GetNamedBufferParameterui64vNV">
+    <param name="buffer" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLuint64EXT *"/>
+  </function>
+
+  <function name="GetIntegerui64vNV">
+    <param name="value" type="GLenum"/>
+    <param name="result" type="GLuint64EXT *"/>
+  </function>
+
+  <function name="Uniformui64NV">
+    <param name="location" type="GLint"/>
+    <param name="value" type="GLuint64EXT"/>
+  </function>
+
+  <function name="Uniformui64vNV">
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLuint64EXT *"/>
+  </function>
+
+  <function name="GetUniformui64vNV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="params" type="GLuint64EXT *"/>
+  </function>
+
+  <function name="ProgramUniformui64NV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="value" type="GLuint64EXT"/>
+  </function>
+
+  <function name="ProgramUniformui64vNV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLuint64EXT *"/>
+  </function>
+
+  <enum name="BUFFER_GPU_ADDRESS_NV"                          value="0x8F1D"/>
+  <enum name="GPU_ADDRESS_NV"                                 value="0x8F34"/>
+  <enum name="MAX_SHADER_BUFFER_ADDRESS_NV"                   value="0x8F35"/>
+
+</category>
+
+</OpenGLAPI>
