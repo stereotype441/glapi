@@ -72,6 +72,8 @@
     <enum name="UNSIGNED_NORMALIZED"                       value="0x8C17"/>
     <enum name="FRAMEBUFFER_DEFAULT"                       value="0x8218"/>
     <enum name="INDEX"                                     value="0x8222"/>
+    <enum name="TEXTURE_LUMINANCE_TYPE"                    value="0x8C14"/>
+    <enum name="TEXTURE_INTENSITY_TYPE"                    value="0x8C15"/>
 
     <enum name="COLOR_ATTACHMENT0"                         value="0x8CE0"/>
     <enum name="COLOR_ATTACHMENT1"                         value="0x8CE1"/>
