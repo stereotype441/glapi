@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_ATI_element_array" number="256">
+
+  <function name="ElementPointerATI">
+    <param name="type" type="GLenum"/>
+    <param name="pointer" type="const GLvoid *"/>
+  </function>
+
+  <function name="DrawElementArrayATI">
+    <param name="mode" type="GLenum"/>
+    <param name="count" type="GLsizei"/>
+  </function>
+
+  <function name="DrawRangeElementArrayATI">
+    <param name="mode" type="GLenum"/>
+    <param name="start" type="GLuint"/>
+    <param name="end" type="GLuint"/>
+    <param name="count" type="GLsizei"/>
+  </function>
+
+  <enum name="ELEMENT_ARRAY_ATI"		value="0x8768"/>
+  <enum name="ELEMENT_ARRAY_TYPE_ATI"		value="0x8769"/>
+  <enum name="ELEMENT_ARRAY_POINTER_ATI"	value="0x876A"/>
+
+</category>
+
+</OpenGLAPI>

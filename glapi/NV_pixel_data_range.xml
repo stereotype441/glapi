@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_pixel_data_range" number="284">
+
+  <function name="PixelDataRangeNV">
+    <param name="target" type="GLenum"/>
+    <param name="length" type="GLsizei"/>
+    <param name="pointer" type="GLvoid *"/>
+  </function>
+
+  <function name="FlushPixelDataRangeNV">
+    <param name="target" type="GLenum"/>
+  </function>
+
+  <enum name="WRITE_PIXEL_DATA_RANGE_NV"                      value="0x8878"/>
+  <enum name="READ_PIXEL_DATA_RANGE_NV"                       value="0x8879"/>
+  <enum name="WRITE_PIXEL_DATA_RANGE_LENGTH_NV"               value="0x887A"/>
+  <enum name="READ_PIXEL_DATA_RANGE_LENGTH_NV"                value="0x887B"/>
+  <enum name="WRITE_PIXEL_DATA_RANGE_POINTER_NV"              value="0x887C"/>
+  <enum name="READ_PIXEL_DATA_RANGE_POINTER_NV"               value="0x887D"/>
+
+</category>
+
+</OpenGLAPI>

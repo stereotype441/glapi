@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_MESAX_texture_stack" number="310">
+
+  <enum name="TEXTURE_1D_STACK_MESAX"            value="0x8759"/>
+  <enum name="TEXTURE_2D_STACK_MESAX"            value="0x875A"/>
+  <enum name="PROXY_TEXTURE_1D_STACK_MESAX"      value="0x875B"/>
+  <enum name="PROXY_TEXTURE_2D_STACK_MESAX"      value="0x875C"/>
+  <enum name="TEXTURE_1D_STACK_BINDING_MESAX"    value="0x875D"/>
+  <enum name="TEXTURE_2D_STACK_BINDING_MESAX"    value="0x875E"/>
+
+</category>
+
+</OpenGLAPI>

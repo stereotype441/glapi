@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_texture_shader3" number="265">
+
+  <enum name="OFFSET_PROJECTIVE_TEXTURE_2D_NV"                value="0x8850"/>
+  <enum name="OFFSET_PROJECTIVE_TEXTURE_2D_SCALE_NV"          value="0x8851"/>
+  <enum name="OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_NV"         value="0x8852"/>
+  <enum name="OFFSET_PROJECTIVE_TEXTURE_RECTANGLE_SCALE_NV"   value="0x8853"/>
+  <enum name="OFFSET_HILO_TEXTURE_2D_NV"                      value="0x8854"/>
+  <enum name="OFFSET_HILO_TEXTURE_RECTANGLE_NV"               value="0x8855"/>
+  <enum name="OFFSET_HILO_PROJECTIVE_TEXTURE_2D_NV"           value="0x8856"/>
+  <enum name="OFFSET_HILO_PROJECTIVE_TEXTURE_RECTANGLE_NV"    value="0x8857"/>
+  <enum name="DEPENDENT_HILO_TEXTURE_2D_NV"                   value="0x8858"/>
+  <enum name="DEPENDENT_RGB_TEXTURE_3D_NV"                    value="0x8859"/>
+  <enum name="DEPENDENT_RGB_TEXTURE_CUBE_MAP_NV"              value="0x885A"/>
+  <enum name="DOT_PRODUCT_PASS_THROUGH_NV"                    value="0x885B"/>
+  <enum name="DOT_PRODUCT_TEXTURE_1D_NV"                      value="0x885C"/>
+  <enum name="DOT_PRODUCT_AFFINE_DEPTH_REPLACE_NV"            value="0x885D"/>
+  <enum name="HILO8_NV"                                       value="0x885E"/>
+  <enum name="SIGNED_HILO8_NV"                                value="0x885F"/>
+  <enum name="FORCE_BLUE_TO_ONE_NV"                           value="0x8860"/>
+
+</category>
+
+</OpenGLAPI>

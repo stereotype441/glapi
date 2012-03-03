@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_ATI_pn_triangles" number="246">
+
+  <function name="PNTrianglesiATI">
+    <param name="pname" type="GLenum"/>
+    <param name="param" type="GLint"/>
+    <return type=""/>
+  </function>
+
+  <function name="PNTrianglesfATI">
+    <param name="pname" type="GLenum"/>
+    <param name="param" type="GLfloat"/>
+    <return type=""/>
+  </function>
+
+  <enum name="PN_TRIANGLES_ATI"                         value="0x87F0"/>
+  <enum name="MAX_PN_TRIANGLES_TESSELATION_LEVEL_ATI"   value="0x87F1"/>
+  <enum name="PN_TRIANGLES_POINT_MODE_ATI"              value="0x87F2"/>
+  <enum name="PN_TRIANGLES_NORMAL_MODE_ATI"             value="0x87F3"/>
+  <enum name="PN_TRIANGLES_TESSELATION_LEVEL_ATI"       value="0x87F4"/>
+  <enum name="PN_TRIANGLES_POINT_MODE_LINEAR_ATI"       value="0x87F5"/>
+  <enum name="PN_TRIANGLES_POINT_MODE_CUBIC_ATI"        value="0x87F6"/>
+  <enum name="PN_TRIANGLES_NORMAL_MODE_LINEAR_ATI"      value="0x87F7"/>
+  <enum name="PN_TRIANGLES_NORMAL_MODE_QUADRATIC_ATI"   value="0x87F8"/>
+
+</category>
+
+</OpenGLAPI>

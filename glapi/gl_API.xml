@@ -12891,4 +12891,30 @@
 
 <xi:include href="NV_tessellation_program5.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
+<xi:include href="NV_vdpau_interop.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_texture_shader2.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="MESAX_texture_stack.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ATI_vertex_array_object.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ATI_element_array.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ATI_vertex_streams.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_vertex_shader.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ATI_pn_triangles.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ATI_meminfo.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_texture_float.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_texture_shader3.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_pixel_data_range.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_gpu_shader5.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
 </OpenGLAPI>

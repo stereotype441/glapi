@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_texture_shader2" number="231">
+
+  <enum name="DOT_PRODUCT_TEXTURE_3D_NV"                 value="0x86EF"/>
+  <enum name="HILO_NV"                                   value="0x86F4"/>
+  <enum name="DSDT_NV"                                   value="0x86F5"/>
+  <enum name="DSDT_MAG_NV"                               value="0x86F6"/>
+  <enum name="DSDT_MAG_VIB_NV"                           value="0x86F7"/>
+  <enum name="UNSIGNED_INT_S8_S8_8_8_NV"                 value="0x86DA"/>
+  <enum name="UNSIGNED_INT_8_8_S8_S8_REV_NV"             value="0x86DB"/>
+  <enum name="SIGNED_RGBA_NV"                            value="0x86FB"/>
+  <enum name="SIGNED_RGBA8_NV"                           value="0x86FC"/>
+  <enum name="SIGNED_RGB_NV"                             value="0x86FE"/>
+  <enum name="SIGNED_RGB8_NV"                            value="0x86FF"/>
+  <enum name="SIGNED_LUMINANCE_NV"                       value="0x8701"/>
+  <enum name="SIGNED_LUMINANCE8_NV"                      value="0x8702"/>
+  <enum name="SIGNED_LUMINANCE_ALPHA_NV"                 value="0x8703"/>
+  <enum name="SIGNED_LUMINANCE8_ALPHA8_NV"               value="0x8704"/>
+  <enum name="SIGNED_ALPHA_NV"                           value="0x8705"/>
+  <enum name="SIGNED_ALPHA8_NV"                          value="0x8706"/>
+  <enum name="SIGNED_INTENSITY_NV"                       value="0x8707"/>
+  <enum name="SIGNED_INTENSITY8_NV"                      value="0x8708"/>
+  <enum name="SIGNED_RGB_UNSIGNED_ALPHA_NV"              value="0x870C"/>
+  <enum name="SIGNED_RGB8_UNSIGNED_ALPHA8_NV"            value="0x870D"/>
+  <enum name="HILO16_NV"                                 value="0x86F8"/>
+  <enum name="SIGNED_HILO_NV"                            value="0x86F9"/>
+  <enum name="SIGNED_HILO16_NV"                          value="0x86FA"/>
+  <enum name="DSDT8_NV"                                  value="0x8709"/>
+  <enum name="DSDT8_MAG8_NV"                             value="0x870A"/>
+  <enum name="DSDT_MAG_INTENSITY_NV"                     value="0x86DC"/>
+  <enum name="DSDT8_MAG8_INTENSITY8_NV"                  value="0x870B"/>
+
+</category>
+
+</OpenGLAPI>

@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_ATI_vertex_array_object" number="247">
+
+  <function name="NewObjectBufferATI">
+    <param name="size" type="GLsizei"/>
+    <param name="pointer" type="const GLvoid *"/>
+    <param name="usage" type="GLenum"/>
+    <return type="GLuint"/>
+  </function>
+
+  <function name="IsObjectBufferATI">
+    <param name="buffer" type="GLuint"/>
+    <return type="GLboolean"/>
+  </function>
+
+  <function name="UpdateObjectBufferATI">
+    <param name="buffer" type="GLuint"/>
+    <param name="offset" type="GLuint"/>
+    <param name="size" type="GLsizei"/>
+    <param name="pointer" type="const GLvoid *"/>
+    <param name="preserve" type="GLenum"/>
+  </function>
+
+  <function name="GetObjectBufferfvATI">
+    <param name="buffer" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLfloat *"/>
+  </function>
+
+  <function name="GetObjectBufferivATI">
+    <param name="buffer" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLint *"/>
+  </function>
+
+  <function name="FreeObjectBufferATI">
+    <param name="buffer" type="GLuint"/>
+  </function>
+
+  <function name="ArrayObjectATI">
+    <param name="array" type="GLenum"/>
+    <param name="size" type="GLint"/>
+    <param name="type" type="GLenum"/>
+    <param name="stride" type="GLsizei"/>
+    <param name="buffer" type="GLuint"/>
+    <param name="offset" type="GLuint"/>
+  </function>
+
+  <function name="GetArrayObjectfvATI">
+    <param name="array" type="GLenum"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLfloat *"/>
+  </function>
+
+  <function name="GetArrayObjectivATI">
+    <param name="array" type="GLenum"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLint *"/>
+  </function>
+
+  <function name="VariantArrayObjectATI">
+    <param name="id" type="GLuint"/>
+    <param name="type" type="GLenum"/>
+    <param name="stride" type="GLsizei"/>
+    <param name="buffer" type="GLuint"/>
+    <param name="offset" type="GLuint"/>
+  </function>
+
+  <function name="GetVariantArrayObjectfvATI">
+    <param name="id" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLfloat *"/>
+  </function>
+
+  <function name="GetVariantArrayObjectivATI">
+    <param name="id" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLint *"/>
+  </function>
+
+  <enum name="STATIC_ATI"                      value="0x8760"/>
+  <enum name="DYNAMIC_ATI"                     value="0x8761"/>
+  <enum name="PRESERVE_ATI"                    value="0x8762"/>
+  <enum name="DISCARD_ATI"                     value="0x8763"/>
+  <enum name="OBJECT_BUFFER_SIZE_ATI"          value="0x8764"/>
+  <enum name="OBJECT_BUFFER_USAGE_ATI"         value="0x8765"/>
+  <enum name="ARRAY_OBJECT_BUFFER_ATI"         value="0x8766"/>
+  <enum name="ARRAY_OBJECT_OFFSET_ATI"         value="0x8767"/>
+
+</category>
+
+</OpenGLAPI>

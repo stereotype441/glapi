@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_EXT_vertex_shader" number="248">
+
+  <function name="BeginVertexShaderEXT">
+    <param name="void" type=""/>
+  </function>
+
+  <function name="EndVertexShaderEXT">
+    <param name="void" type=""/>
+  </function>
+
+  <function name="BindVertexShaderEXT">
+    <param name="id" type="GLGLuint"/>
+  </function>
+
+  <function name="GenVertexShadersEXT">
+    <param name="range" type="GLGLuint"/>
+    <return type="GLuint"/>
+  </function>
+
+  <function name="DeleteVertexShaderEXT">
+    <param name="id" type="GLGLuint"/>
+  </function>
+
+  <function name="ShaderOp1EXT">
+    <param name="op" type="GLenum"/>
+    <param name="res" type="GLuint"/>
+    <param name="arg1" type="GLuint"/>
+  </function>
+
+  <function name="ShaderOp2EXT">
+    <param name="op" type="GLenum"/>
+    <param name="res" type="GLuint"/>
+    <param name="arg1" type="GLuint"/>
+    <param name="arg2" type="GLuint"/>
+  </function>
+
+  <function name="ShaderOp3EXT">
+    <param name="op" type="GLenum"/>
+    <param name="res" type="GLuint"/>
+    <param name="arg1" type="GLuint"/>
+    <param name="arg2" type="GLuint"/>
+    <param name="arg3" type="GLuint"/>
+  </function>
+
+  <function name="SwizzleEXT">
+    <param name="res" type="GLuint"/>
+    <param name="in" type="GLuint"/>
+    <param name="outX" type="GLenum"/>
+    <param name="outY" type="GLenum"/>
+    <param name="outZ" type="GLenum"/>
+    <param name="outW" type="GLenum"/>
+  </function>
+
+  <function name="WriteMaskEXT">
+    <param name="res" type="GLuint"/>
+    <param name="in" type="GLuint"/>
+    <param name="outX" type="GLenum"/>
+    <param name="outY" type="GLenum"/>
+    <param name="outW" type="GLenum GLoutZ
+ GLenum"/>
+  </function>
+
+  <function name="InsertComponentEXT">
+    <param name="res" type="GLuint"/>
+    <param name="src" type="GLuint"/>
+    <param name="num" type="GLuint"/>
+  </function>
+
+  <function name="ExtractComponentEXT">
+    <param name="res" type="GLuint"/>
+    <param name="src" type="GLuint"/>
+    <param name="num" type="GLuint"/>
+  </function>
+
+  <function name="GenSymbolsEXT">
+    <param name="datatype" type="GLenum"/>
+    <param name="storagetype" type="GLenum"/>
+    <param name="range" type="GLenum"/>
+    <param name="components" type="GLuint"/>
+    <return type="GLuint"/>
+  </function>
+
+  <function name="SetInvariantEXT">
+    <param name="id" type="GLuint"/>
+    <param name="type" type="GLenum"/>
+    <param name="addr" type="GLvoid *"/>
+  </function>
+
+  <function name="SetLocalConstantEXT">
+    <param name="id" type="GLuint"/>
+    <param name="type" type="GLenum"/>
+    <param name="addr" type="GLvoid *"/>
+  </function>
+
+  <function name="vEXT">
+    <param name="id" type="GLuint"/>
+    <param name="addr" type="GLT *"/>
+    <return type="GLvoid GLVariant{bsifd GLubusui}"/>
+  </function>
+
+  <function name="VariantPointerEXT">
+    <param name="id" type="GLuint"/>
+    <param name="type" type="GLenum"/>
+    <param name="stride" type="GLuint"/>
+    <param name="addr" type="GLvoid *"/>
+  </function>
+
+  <function name="EnableVariantClientStateEXT">
+    <param name="id" type="GLuint"/>
+  </function>
+
+  <function name="DisableVariantClientStateEXT">
+    <param name="id" type="GLuint"/>
+  </function>
+
+  <function name="BindLightParameterEXT">
+    <param name="light" type="GLenum"/>
+    <param name="value" type="GLenum"/>
+    <return type="GLuint"/>
+  </function>
+
+  <function name="BindMaterialParameterEXT">
+    <param name="face" type="GLenum"/>
+    <param name="value" type="GLenum"/>
+    <return type="GLuint"/>
+  </function>
+
+  <function name="BindTexGenParameterEXT">
+    <param name="unit" type="GLenum"/>
+    <param name="coord" type="GLenum"/>
+    <param name="value" type="GLenum"/>
+    <return type="GLuint"/>
+  </function>
+
+  <function name="BindTextureUnitParameterEXT">
+    <param name="unit" type="GLenum"/>
+    <param name="value" type="GLenum"/>
+    <return type="GLuint"/>
+  </function>
+
+  <function name="BindParameterEXT">
+    <param name="value" type="GLenum"/>
+    <return type="GLuint"/>
+  </function>
+
+  <function name="IsVariantEnabledEXT">
+    <param name="id" type="GLuint"/>
+    <param name="cap" type="GLenum"/>
+    <return type="GLboolean"/>
+  </function>
+
+  <function name="GetVariantBooleanvEXT">
+    <param name="id" type="GLuint"/>
+    <param name="value" type="GLenum"/>
+    <param name="data" type="GLboolean *"/>
+  </function>
+
+  <function name="GetVariantIntegervEXT">
+    <param name="id" type="GLuint"/>
+    <param name="value" type="GLenum"/>
+    <param name="data" type="GLint *"/>
+  </function>
+
+  <function name="GetVariantFloatvEXT">
+    <param name="id" type="GLuint"/>
+    <param name="value" type="GLenum"/>
+    <param name="data" type="GLfloat *"/>
+  </function>
+
+  <function name="GetVariantPointervEXT">
+    <param name="id" type="GLuint"/>
+    <param name="value" type="GLenum"/>
+    <param name="data" type="GLvoid GL**"/>
+  </function>
+
+  <function name="GetInvariantBooleanvEXT">
+    <param name="id" type="GLuint"/>
+    <param name="value" type="GLenum"/>
+    <param name="data" type="GLboolean *"/>
+  </function>
+
+  <function name="GetInvariantIntegervEXT">
+    <param name="id" type="GLuint"/>
+    <param name="value" type="GLenum"/>
+    <param name="data" type="GLint *"/>
+  </function>
+
+  <function name="GetInvariantFloatvEXT">
+    <param name="id" type="GLuint"/>
+    <param name="value" type="GLenum"/>
+    <param name="data" type="GLfloat *"/>
+  </function>
+
+  <function name="GetLocalConstantBooleanvEXT">
+    <param name="id" type="GLuint"/>
+    <param name="value" type="GLenum"/>
+    <param name="data" type="GLboolean *"/>
+  </function>
+
+  <function name="GetLocalConstantIntegervEXT">
+    <param name="id" type="GLuint"/>
+    <param name="value" type="GLenum"/>
+    <param name="data" type="GLint *"/>
+  </function>
+
+  <function name="GetLocalConstantFloatvEXT">
+    <param name="id" type="GLuint"/>
+    <param name="value" type="GLenum"/>
+    <param name="data" type="GLfloat *"/>
+  </function>
+
+  <enum name="VERTEX_SHADER_EXT"                   value="0x8780"/>
+  <enum name="VARIANT_VALUE_EXT"                   value="0x87E4"/>
+  <enum name="VARIANT_DATATYPE_EXT"                value="0x87E5"/>
+  <enum name="VARIANT_ARRAY_STRIDE_EXT"            value="0x87E6"/>
+  <enum name="VARIANT_ARRAY_TYPE_EXT"              value="0x87E7"/>
+  <enum name="VARIANT_ARRAY_EXT"                   value="0x87E8"/>
+  <enum name="VARIANT_ARRAY_POINTER_EXT"           value="0x87E9"/>
+  <enum name="INVARIANT_VALUE_EXT"                 value="0x87EA"/>
+  <enum name="INVARIANT_DATATYPE_EXT"              value="0x87EB"/>
+  <enum name="LOCAL_CONSTANT_VALUE_EXT"            value="0x87EC"/>
+  <enum name="LOCAL_CONSTANT_DATATYPE_EXT"         value="0x87ED"/>
+  <enum name="OP_INDEX_EXT"                        value="0x8782"/>
+  <enum name="OP_NEGATE_EXT"                       value="0x8783"/>
+  <enum name="OP_DOT3_EXT"                         value="0x8784"/>
+  <enum name="OP_DOT4_EXT"                         value="0x8785"/>
+  <enum name="OP_MUL_EXT"                          value="0x8786"/>
+  <enum name="OP_ADD_EXT"                          value="0x8787"/>
+  <enum name="OP_MADD_EXT"                         value="0x8788"/>
+  <enum name="OP_FRAC_EXT"                         value="0x8789"/>
+  <enum name="OP_MAX_EXT"                          value="0x878A"/>
+  <enum name="OP_MIN_EXT"                          value="0x878B"/>
+  <enum name="OP_SET_GE_EXT"                       value="0x878C"/>
+  <enum name="OP_SET_LT_EXT"                       value="0x878D"/>
+  <enum name="OP_CLAMP_EXT"                        value="0x878E"/>
+  <enum name="OP_FLOOR_EXT"                        value="0x878F"/>
+  <enum name="OP_ROUND_EXT"                        value="0x8790"/>
+  <enum name="OP_EXP_BASE_2_EXT"                   value="0x8791"/>
+  <enum name="OP_LOG_BASE_2_EXT"                   value="0x8792"/>
+  <enum name="OP_POWER_EXT"                        value="0x8793"/>
+  <enum name="OP_RECIP_EXT"                        value="0x8794"/>
+  <enum name="OP_RECIP_SQRT_EXT"                   value="0x8795"/>
+  <enum name="OP_SUB_EXT"                          value="0x8796"/>
+  <enum name="OP_CROSS_PRODUCT_EXT"                value="0x8797"/>
+  <enum name="OP_MULTIPLY_MATRIX_EXT"              value="0x8798"/>
+  <enum name="OP_MOV_EXT"                          value="0x8799"/>
+  <enum name="OUTPUT_VERTEX_EXT"                   value="0x879A"/>
+  <enum name="OUTPUT_COLOR0_EXT"                   value="0x879B"/>
+  <enum name="OUTPUT_COLOR1_EXT"                   value="0x879C"/>
+  <enum name="OUTPUT_TEXTURE_COORD0_EXT"           value="0x879D"/>
+  <enum name="OUTPUT_TEXTURE_COORD1_EXT"           value="0x879E"/>
+  <enum name="OUTPUT_TEXTURE_COORD2_EXT"           value="0x879F"/>
+  <enum name="OUTPUT_TEXTURE_COORD3_EXT"           value="0x87A0"/>
+  <enum name="OUTPUT_TEXTURE_COORD4_EXT"           value="0x87A1"/>
+  <enum name="OUTPUT_TEXTURE_COORD5_EXT"           value="0x87A2"/>
+  <enum name="OUTPUT_TEXTURE_COORD6_EXT"           value="0x87A3"/>
+  <enum name="OUTPUT_TEXTURE_COORD7_EXT"           value="0x87A4"/>
+  <enum name="OUTPUT_TEXTURE_COORD8_EXT"           value="0x87A5"/>
+  <enum name="OUTPUT_TEXTURE_COORD9_EXT"           value="0x87A6"/>
+  <enum name="OUTPUT_TEXTURE_COORD10_EXT"          value="0x87A7"/>
+  <enum name="OUTPUT_TEXTURE_COORD11_EXT"          value="0x87A8"/>
+  <enum name="OUTPUT_TEXTURE_COORD12_EXT"          value="0x87A9"/>
+  <enum name="OUTPUT_TEXTURE_COORD13_EXT"          value="0x87AA"/>
+  <enum name="OUTPUT_TEXTURE_COORD14_EXT"          value="0x87AB"/>
+  <enum name="OUTPUT_TEXTURE_COORD15_EXT"          value="0x87AC"/>
+  <enum name="OUTPUT_TEXTURE_COORD16_EXT"          value="0x87AD"/>
+  <enum name="OUTPUT_TEXTURE_COORD17_EXT"          value="0x87AE"/>
+  <enum name="OUTPUT_TEXTURE_COORD18_EXT"          value="0x87AF"/>
+  <enum name="OUTPUT_TEXTURE_COORD19_EXT"          value="0x87B0"/>
+  <enum name="OUTPUT_TEXTURE_COORD20_EXT"          value="0x87B1"/>
+  <enum name="OUTPUT_TEXTURE_COORD21_EXT"          value="0x87B2"/>
+  <enum name="OUTPUT_TEXTURE_COORD22_EXT"          value="0x87B3"/>
+  <enum name="OUTPUT_TEXTURE_COORD23_EXT"          value="0x87B4"/>
+  <enum name="OUTPUT_TEXTURE_COORD24_EXT"          value="0x87B5"/>
+  <enum name="OUTPUT_TEXTURE_COORD25_EXT"          value="0x87B6"/>
+  <enum name="OUTPUT_TEXTURE_COORD26_EXT"          value="0x87B7"/>
+  <enum name="OUTPUT_TEXTURE_COORD27_EXT"          value="0x87B8"/>
+  <enum name="OUTPUT_TEXTURE_COORD28_EXT"          value="0x87B9"/>
+  <enum name="OUTPUT_TEXTURE_COORD29_EXT"          value="0x87BA"/>
+  <enum name="OUTPUT_TEXTURE_COORD30_EXT"          value="0x87BB"/>
+  <enum name="OUTPUT_TEXTURE_COORD31_EXT"          value="0x87BC"/>
+  <enum name="OUTPUT_FOG_EXT"                      value="0x87BD"/>
+  <enum name="SCALAR_EXT"                          value="0x87BE"/>
+  <enum name="VECTOR_EXT"                          value="0x87BF"/>
+  <enum name="MATRIX_EXT"                          value="0x87C0"/>
+  <enum name="VARIANT_EXT"                         value="0x87C1"/>
+  <enum name="INVARIANT_EXT"                       value="0x87C2"/>
+  <enum name="LOCAL_CONSTANT_EXT"                  value="0x87C3"/>
+  <enum name="LOCAL_EXT"                           value="0x87C4"/>
+  <enum name="MAX_VERTEX_SHADER_INSTRUCTIONS_EXT"              value="0x87C5"/>
+  <enum name="MAX_VERTEX_SHADER_VARIANTS_EXT"                  value="0x87C6"/>
+  <enum name="MAX_VERTEX_SHADER_INVARIANTS_EXT"                value="0x87C7"/>
+  <enum name="MAX_VERTEX_SHADER_LOCAL_CONSTANTS_EXT"           value="0x87C8"/>
+  <enum name="MAX_VERTEX_SHADER_LOCALS_EXT"                    value="0x87C9"/>
+  <enum name="MAX_OPTIMIZED_VERTEX_SHADER_INSTRUCTIONS_EXT"    value="0x87CA"/>
+  <enum name="MAX_OPTIMIZED_VERTEX_SHADER_VARIANTS_EXT"        value="0x87CB"/>
+  <enum name="MAX_OPTIMIZED_VERTEX_SHADER_LOCAL_CONSTANTS_EXT" value="0x87CC"/>
+  <enum name="MAX_OPTIMIZED_VERTEX_SHADER_INARIANTS_EXT"       value="0x87CD"/>
+  <enum name="MAX_OPTIMIZED_VERTEX_SHADER_LOCALS_EXT"          value="0x87CE"/>
+  <enum name="VERTEX_SHADER_INSTRUCTIONS_EXT"                  value="0x87CF"/>
+  <enum name="VERTEX_SHADER_VARIANTS_EXT"                      value="0x87D0"/>
+  <enum name="VERTEX_SHADER_INVARIANTS_EXT"                    value="0x87D1"/>
+  <enum name="VERTEX_SHADER_LOCAL_CONSTANTS_EXT"               value="0x87D2"/>
+  <enum name="VERTEX_SHADER_LOCALS_EXT"                        value="0x87D3"/>
+  <enum name="VERTEX_SHADER_BINDING_EXT"                       value="0x8781"/>
+  <enum name="VERTEX_SHADER_OPTIMIZED_EXT"                     value="0x87D4"/>
+  <enum name="X_EXT"                               value="0x87D5"/>
+  <enum name="Y_EXT"                               value="0x87D6"/>
+  <enum name="Z_EXT"                               value="0x87D7"/>
+  <enum name="W_EXT"                               value="0x87D8"/>
+  <enum name="NEGATIVE_X_EXT"                      value="0x87D9"/>
+  <enum name="NEGATIVE_Y_EXT"                      value="0x87DA"/>
+  <enum name="NEGATIVE_Z_EXT"                      value="0x87DB"/>
+  <enum name="NEGATIVE_W_EXT"                      value="0x87DC"/>
+  <enum name="ZERO_EXT"                            value="0x87dd"/>
+  <enum name="ONE_EXT"                             value="0x87de"/>
+  <enum name="NEGATIVE_ONE_EXT"                    value="0x87DF"/>
+  <enum name="NORMALIZED_RANGE_EXT"                    value="0x87E0"/>
+  <enum name="FULL_RANGE_EXT"                          value="0x87E1"/>
+  <enum name="CURRENT_VERTEX_EXT"                  value="0x87E2"/>
+  <enum name="MVP_MATRIX_EXT"                      value="0x87E3"/>
+
+</category>
+
+</OpenGLAPI>

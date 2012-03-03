@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_ATI_meminfo" number="359">
+
+  <enum name="VBO_FREE_MEMORY_ATI"                     value="0x87FB"/>
+  <enum name="TEXTURE_FREE_MEMORY_ATI"                 value="0x87FC"/>
+  <enum name="RENDERBUFFER_FREE_MEMORY_ATI"            value="0x87FD"/>
+
+</category>
+
+</OpenGLAPI>
