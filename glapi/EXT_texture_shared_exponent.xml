@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_EXT_texture_shared_exponent" number="333">
+
+  <enum name="RGB9_E5_EXT"                                    value="0x8C3D"/>
+  <enum name="UNSIGNED_INT_5_9_9_9_REV_EXT"                  value="0x8C3E"/>
+  <enum name="TEXTURE_SHARED_SIZE_EXT"                        value="0x8C3F"/>
+
+</category>
+
+</OpenGLAPI>
