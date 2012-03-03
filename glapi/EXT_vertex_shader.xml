@@ -6,11 +6,9 @@
 <category name="GL_EXT_vertex_shader" number="248">
 
   <function name="BeginVertexShaderEXT">
-    <param name="void" type=""/>
   </function>
 
   <function name="EndVertexShaderEXT">
-    <param name="void" type=""/>
   </function>
 
   <function name="BindVertexShaderEXT">
