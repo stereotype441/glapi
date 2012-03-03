@@ -73,8 +73,6 @@
   <enum name="MAX_SUBROUTINE_UNIFORM_LOCATIONS"                value="0x8DE8"/>
   <enum name="NUM_COMPATIBLE_SUBROUTINES"                      value="0x8E4A"/>
   <enum name="COMPATIBLE_SUBROUTINES"                          value="0x8E4B"/>
-  <enum name="UNIFORM"_value="SIZE"/>
-  <enum name="UNIFORM_NAME"_value="LENGTH"/>
 
 </category>
 
