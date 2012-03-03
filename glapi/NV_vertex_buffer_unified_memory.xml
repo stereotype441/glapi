@@ -98,6 +98,9 @@
   <enum name="SECONDARY_COLOR_ARRAY_LENGTH_NV"                value="0x8F31"/>
   <enum name="FOG_COORD_ARRAY_LENGTH_NV"                      value="0x8F32"/>
   <enum name="ELEMENT_ARRAY_LENGTH_NV"                        value="0x8F33"/>
+  <enum name="DRAW_INDIRECT_UNIFIED_NV"                       value="0x8F40"/>
+  <enum name="DRAW_INDIRECT_ADDRESS_NV"                       value="0x8F41"/>
+  <enum name="DRAW_INDIRECT_LENGTH_NV"                        value="0x8F42"/>
 
 </category>
 
