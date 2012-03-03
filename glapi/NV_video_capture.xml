@@ -65,21 +65,21 @@
   <function name="VideoCaptureStreamParameterivNV">
     <param name="video_capture_slot" type="GLuint"/>
     <param name="stream" type="GLuint"/>
-    <param name="pname" type="GLGLenum"/>
+    <param name="pname" type="GLenum"/>
     <param name="params" type="const GLint *"/>
   </function>
 
   <function name="VideoCaptureStreamParameterfvNV">
     <param name="video_capture_slot" type="GLuint"/>
     <param name="stream" type="GLuint"/>
-    <param name="pname" type="GLGLenum"/>
+    <param name="pname" type="GLenum"/>
     <param name="params" type="const GLfloat *"/>
   </function>
 
   <function name="VideoCaptureStreamParameterdvNV">
     <param name="video_capture_slot" type="GLuint"/>
     <param name="stream" type="GLuint"/>
-    <param name="pname" type="GLGLenum"/>
+    <param name="pname" type="GLenum"/>
     <param name="params" type="const GLdouble *"/>
   </function>
 

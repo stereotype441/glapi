@@ -53,7 +53,7 @@
   <function name="GetIntegerIndexedvEXT">
     <param name="value" type="GLenum"/>
     <param name="index" type="GLuint"/>
-    <param name="data" type="GLboolean *"/>
+    <param name="data" type="GLint *"/>
   </function>
 
   <enum name="MAX_PROGRAM_PARAMETER_BUFFER_BINDINGS_NV"          value="0x8DA0"/>
