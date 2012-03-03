@@ -5767,17 +5767,17 @@
 </category>
 
 <category name="4.0">
-  <enum name="GL_SAMPLE_SHADING"                 value="0x8C36"/>
-  <enum name="GL_MIN_SAMPLE_SHADING_VALUE"       value="0x8C37"/>
-  <enum name="GL_MIN_PROGRAM_TEXTURE_GATHER_OFFSET" value="0x8E5E"/>
-  <enum name="GL_MAX_PROGRAM_TEXTURE_GATHER_OFFSET" value="0x8E5F"/>
-  <enum name="GL_TEXTURE_CUBE_MAP_ARRAY"         value="0x9009"/>
-  <enum name="GL_TEXTURE_BINDING_CUBE_MAP_ARRAY" value="0x900A"/>
-  <enum name="GL_PROXY_TEXTURE_CUBE_MAP_ARRAY"   value="0x900B"/>
-  <enum name="GL_SAMPLER_CUBE_MAP_ARRAY"         value="0x900C"/>
-  <enum name="GL_SAMPLER_CUBE_MAP_ARRAY_SHADOW"  value="0x900D"/>
-  <enum name="GL_INT_SAMPLER_CUBE_MAP_ARRAY"     value="0x900E"/>
-  <enum name="GL_UNSIGNED_INT_SAMPLER_CUBE_MAP_ARRAY" value="0x900F"/>
+  <enum name="SAMPLE_SHADING"                 value="0x8C36"/>
+  <enum name="MIN_SAMPLE_SHADING_VALUE"       value="0x8C37"/>
+  <enum name="MIN_PROGRAM_TEXTURE_GATHER_OFFSET" value="0x8E5E"/>
+  <enum name="MAX_PROGRAM_TEXTURE_GATHER_OFFSET" value="0x8E5F"/>
+  <enum name="TEXTURE_CUBE_MAP_ARRAY"         value="0x9009"/>
+  <enum name="TEXTURE_BINDING_CUBE_MAP_ARRAY" value="0x900A"/>
+  <enum name="PROXY_TEXTURE_CUBE_MAP_ARRAY"   value="0x900B"/>
+  <enum name="SAMPLER_CUBE_MAP_ARRAY"         value="0x900C"/>
+  <enum name="SAMPLER_CUBE_MAP_ARRAY_SHADOW"  value="0x900D"/>
+  <enum name="INT_SAMPLER_CUBE_MAP_ARRAY"     value="0x900E"/>
+  <enum name="UNSIGNED_INT_SAMPLER_CUBE_MAP_ARRAY" value="0x900F"/>
 </category>
 
 
