@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_texgen_emboss" number="193">
+
+  <enum name="EMBOSS_MAP_NV"                      value="0x855F"/>
+  <enum name="EMBOSS_LIGHT_NV"                    value="0x855D"/>
+  <enum name="EMBOSS_CONSTANT_NV"                 value="0x855E"/>
+
+</category>
+
+</OpenGLAPI>

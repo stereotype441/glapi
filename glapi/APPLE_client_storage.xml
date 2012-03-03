@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_APPLE_client_storage" number="270">
+
+  <enum name="UNPACK_CLIENT_STORAGE_APPLE"    value="0x85B2"/>
+
+</category>
+
+</OpenGLAPI>

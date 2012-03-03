@@ -12853,4 +12853,42 @@
 
 <xi:include href="ARB_get_program_binary.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
+<xi:include href="ARB_separate_shader_objects.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_viewport_array.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="SGIX_blend_alpha_minmax.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="SGIX_async_histogram.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="SGIX_async_pixel.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="SGIX_vertex_preclip.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="SGIX_resample.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="REND_screen_coordinates.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_tessellation_shader.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_vertex_array_range2.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_texgen_emboss.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="INGR_color_clamp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="INGR_interlace_read.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="APPLE_specular_vector.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="APPLE_transform_hint.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="APPLE_client_storage.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="APPLE_vertex_array_range.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_texture_shader.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_tessellation_program5.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
 </OpenGLAPI>

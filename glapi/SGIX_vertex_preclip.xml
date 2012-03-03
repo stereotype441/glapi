@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_SGIX_vertex_preclip" number="210">
+
+  <enum name="VERTEX_PRECLIP_SGIX"		    value="0x83EE"/>
+  <enum name="VERTEX_PRECLIP_HINT_SGIX"	    value="0x83EF"/>
+
+</category>
+
+</OpenGLAPI>

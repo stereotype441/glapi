@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_REND_screen_coordinates" number="155">
+
+  <enum name="SCREEN_COORDINATES_REND"	value="0x8490"/>
+  <enum name="INVERTED_SCREEN_W_REND"	value="0x8491"/>
+
+</category>
+
+</OpenGLAPI>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_vertex_array_range2" number="232">
+
+  <enum name="VERTEX_ARRAY_RANGE_WITHOUT_FLUSH_NV"  value="0x8533"/>
+
+</category>
+
+</OpenGLAPI>

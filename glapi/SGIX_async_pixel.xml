@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_SGIX_async_pixel" number="133">
+
+  <enum name="ASYNC_TEX_IMAGE_SGIX"		value="0x835C"/>
+  <enum name="ASYNC_DRAW_PIXELS_SGIX"		value="0x835D"/>
+  <enum name="ASYNC_READ_PIXELS_SGIX"		value="0x835E"/>
+  <enum name="MAX_ASYNC_TEX_IMAGE_SGIX"	value="0x835F"/>
+  <enum name="MAX_ASYNC_DRAW_PIXELS_SGIX"	value="0x8360"/>
+  <enum name="MAX_ASYNC_READ_PIXELS_SGIX"	value="0x8361"/>
+
+</category>
+
+</OpenGLAPI>

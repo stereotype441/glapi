@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_INGR_color_clamp" number="174">
+
+  <enum name="RED_MIN_CLAMP_INGR"                  value="0x8560"/>
+  <enum name="GREEN_MIN_CLAMP_INGR"                value="0x8561"/>
+  <enum name="BLUE_MIN_CLAMP_INGR"                 value="0x8562"/>
+  <enum name="ALPHA_MIN_CLAMP_INGR"                value="0x8563"/>
+  <enum name="RED_MAX_CLAMP_INGR"                  value="0x8564"/>
+  <enum name="GREEN_MAX_CLAMP_INGR"                value="0x8565"/>
+  <enum name="BLUE_MAX_CLAMP_INGR"                 value="0x8566"/>
+  <enum name="ALPHA_MAX_CLAMP_INGR"                value="0x8567"/>
+
+</category>
+
+</OpenGLAPI>

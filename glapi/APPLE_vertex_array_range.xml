@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_APPLE_vertex_array_range" number="274">
+
+  <function name="VertexArrayRangeAPPLE">
+    <param name="length" type="GLsizei"/>
+    <param name="pointer" type="GLvoid *"/>
+  </function>
+
+  <function name="FlushVertexArrayRangeAPPLE">
+    <param name="length" type="GLsizei"/>
+    <param name="pointer" type="GLvoid *"/>
+  </function>
+
+  <function name="VertexArrayParameteriAPPLE">
+    <param name="pname" type="GLenum"/>
+    <param name="param" type="GLint"/>
+  </function>
+
+  <enum name="VERTEX_ARRAY_RANGE_APPLE"              value="0x851D"/>
+  <enum name="VERTEX_ARRAY_RANGE_LENGTH_APPLE"       value="0x851E"/>
+  <enum name="MAX_VERTEX_ARRAY_RANGE_ELEMENT_APPLE"  value="0x8520"/>
+  <enum name="VERTEX_ARRAY_RANGE_POINTER_APPLE"      value="0x8521"/>
+  <enum name="VERTEX_ARRAY_STORAGE_HINT_APPLE"       value="0x851F"/>
+  <enum name="STORAGE_CLIENT_APPLE"                  value="0x85B4"/>
+  <enum name="STORAGE_CACHED_APPLE"                  value="0x85BE"/>
+  <enum name="STORAGE_SHARED_APPLE"                  value="0x85BF"/>
+
+</category>
+
+</OpenGLAPI>

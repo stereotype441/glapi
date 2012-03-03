@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_SGIX_async_histogram" number="134">
+
+  <enum name="ASYNC_HISTOGRAM_SGIX"		value="0x832C"/>
+  <enum name="MAX_ASYNC_HISTOGRAM_SGIX"        value="0x832D"/>
+
+</category>
+
+</OpenGLAPI>

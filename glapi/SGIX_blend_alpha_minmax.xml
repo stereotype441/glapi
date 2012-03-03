@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_SGIX_blend_alpha_minmax" number="119">
+
+  <enum name="ALPHA_MIN_SGIX"			 value="0x8320"/>
+  <enum name="ALPHA_MAX_SGIX"			 value="0x8321"/>
+
+</category>
+
+</OpenGLAPI>
