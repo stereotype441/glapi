@@ -334,7 +334,7 @@
   <enum name="MAX_OPTIMIZED_VERTEX_SHADER_INSTRUCTIONS_EXT"    value="0x87CA"/>
   <enum name="MAX_OPTIMIZED_VERTEX_SHADER_VARIANTS_EXT"        value="0x87CB"/>
   <enum name="MAX_OPTIMIZED_VERTEX_SHADER_LOCAL_CONSTANTS_EXT" value="0x87CC"/>
-  <enum name="MAX_OPTIMIZED_VERTEX_SHADER_INARIANTS_EXT"       value="0x87CD"/>
+  <enum name="MAX_OPTIMIZED_VERTEX_SHADER_INVARIANTS_EXT"      value="0x87CD"/>
   <enum name="MAX_OPTIMIZED_VERTEX_SHADER_LOCALS_EXT"          value="0x87CE"/>
   <enum name="VERTEX_SHADER_INSTRUCTIONS_EXT"                  value="0x87CF"/>
   <enum name="VERTEX_SHADER_VARIANTS_EXT"                      value="0x87D0"/>

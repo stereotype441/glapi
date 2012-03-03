@@ -12941,4 +12941,44 @@
 
 <xi:include href="ARB_gpu_shader5.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
+<xi:include href="NV_float_buffer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_timer_query.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_stencil_clear_tag.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_gpu_program4.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="OML_interlace.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="OML_subsample.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="OML_resample.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="APPLE_fence.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="APPLE_element_array.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="APPLE_float_pixels.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_uniform_buffer_object.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="APPLE_aux_depth_stencil.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="APPLE_row_bytes.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="APPLE_rgb_422.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_texture_sRGB_decode.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_geometry_program4.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_occlusion_query2.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_packed_float.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_texture_compression_latc.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="NV_transform_feedback.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
 </OpenGLAPI>
