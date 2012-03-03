@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_EXT_texture_compression_rgtc" number="332">
+
+  <enum name="COMPRESSED_RED_RGTC1_EXT"                       value="0x8DBB"/>
+  <enum name="COMPRESSED_SIGNED_RED_RGTC1_EXT"                value="0x8DBC"/>
+  <enum name="COMPRESSED_RED_GREEN_RGTC2_EXT"                 value="0x8DBD"/>
+  <enum name="COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT"          value="0x8DBE"/>
+
+</category>
+
+</OpenGLAPI>

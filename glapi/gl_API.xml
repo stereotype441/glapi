@@ -13049,4 +13049,6 @@
 
 <xi:include href="AMD_name_gen_delete.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
+<xi:include href="EXT_texture_compression_rgtc.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
 </OpenGLAPI>
