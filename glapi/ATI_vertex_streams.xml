@@ -5,139 +5,139 @@
 
 <category name="GL_ATI_vertex_streams" number="249">
 
-  <function name="glVertexStream1sATI">
+  <function name="VertexStream1sATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLshort"/>
   </function>
 
-  <function name="glVertexStream1svATI">
+  <function name="VertexStream1svATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLshort *"/>
   </function>
 
-  <function name="glVertexStream1iATI">
+  <function name="VertexStream1iATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLint"/>
   </function>
 
-  <function name="glVertexStream1ivATI">
+  <function name="VertexStream1ivATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLint *"/>
   </function>
 
-  <function name="glVertexStream1fATI">
+  <function name="VertexStream1fATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLfloat"/>
   </function>
 
-  <function name="glVertexStream1fvATI">
+  <function name="VertexStream1fvATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLfloat *"/>
   </function>
 
-  <function name="glVertexStream1dATI">
+  <function name="VertexStream1dATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLdouble"/>
   </function>
 
-  <function name="glVertexStream1dvATI">
+  <function name="VertexStream1dvATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLdouble *"/>
   </function>
 
-  <function name="glVertexStream2sATI">
+  <function name="VertexStream2sATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLshort"/>
     <param name="y" type="GLshort"/>
   </function>
 
-  <function name="glVertexStream2svATI">
+  <function name="VertexStream2svATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLshort *"/>
   </function>
 
-  <function name="glVertexStream2iATI">
+  <function name="VertexStream2iATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLint"/>
     <param name="y" type="GLint"/>
   </function>
 
-  <function name="glVertexStream2ivATI">
+  <function name="VertexStream2ivATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLint *"/>
   </function>
 
-  <function name="glVertexStream2fATI">
+  <function name="VertexStream2fATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLfloat"/>
     <param name="y" type="GLfloat"/>
   </function>
 
-  <function name="glVertexStream2fvATI">
+  <function name="VertexStream2fvATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLfloat *"/>
   </function>
 
-  <function name="glVertexStream2dATI">
+  <function name="VertexStream2dATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLdouble"/>
     <param name="y" type="GLdouble"/>
   </function>
 
-  <function name="glVertexStream2dvATI">
+  <function name="VertexStream2dvATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLdouble *"/>
   </function>
 
-  <function name="glVertexStream3sATI">
+  <function name="VertexStream3sATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLshort"/>
     <param name="y" type="GLshort"/>
     <param name="z" type="GLshort"/>
   </function>
 
-  <function name="glVertexStream3svATI">
+  <function name="VertexStream3svATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLshort *"/>
   </function>
 
-  <function name="glVertexStream3iATI">
+  <function name="VertexStream3iATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLint"/>
     <param name="y" type="GLint"/>
     <param name="z" type="GLint"/>
   </function>
 
-  <function name="glVertexStream3ivATI">
+  <function name="VertexStream3ivATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLint *"/>
   </function>
 
-  <function name="glVertexStream3fATI">
+  <function name="VertexStream3fATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLfloat"/>
     <param name="y" type="GLfloat"/>
     <param name="z" type="GLfloat"/>
   </function>
 
-  <function name="glVertexStream3fvATI">
+  <function name="VertexStream3fvATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLfloat *"/>
   </function>
 
-  <function name="glVertexStream3dATI">
+  <function name="VertexStream3dATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLdouble"/>
     <param name="y" type="GLdouble"/>
     <param name="z" type="GLdouble"/>
   </function>
 
-  <function name="glVertexStream3dvATI">
+  <function name="VertexStream3dvATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLdouble *"/>
   </function>
 
-  <function name="glVertexStream4sATI">
+  <function name="VertexStream4sATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLshort"/>
     <param name="y" type="GLshort"/>
@@ -145,12 +145,12 @@
     <param name="w" type="GLshort"/>
   </function>
 
-  <function name="glVertexStream4svATI">
+  <function name="VertexStream4svATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLshort *"/>
   </function>
 
-  <function name="glVertexStream4iATI">
+  <function name="VertexStream4iATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLint"/>
     <param name="y" type="GLint"/>
@@ -158,12 +158,12 @@
     <param name="w" type="GLint"/>
   </function>
 
-  <function name="glVertexStream4ivATI">
+  <function name="VertexStream4ivATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLint *"/>
   </function>
 
-  <function name="glVertexStream4fATI">
+  <function name="VertexStream4fATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLfloat"/>
     <param name="y" type="GLfloat"/>
@@ -171,12 +171,12 @@
     <param name="w" type="GLfloat"/>
   </function>
 
-  <function name="glVertexStream4fvATI">
+  <function name="VertexStream4fvATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLfloat *"/>
   </function>
 
-  <function name="glVertexStream4dATI">
+  <function name="VertexStream4dATI">
     <param name="stream" type="GLenum"/>
     <param name="x" type="GLdouble"/>
     <param name="y" type="GLdouble"/>
@@ -184,81 +184,81 @@
     <param name="w" type="GLdouble"/>
   </function>
 
-  <function name="glVertexStream4dvATI">
+  <function name="VertexStream4dvATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLdouble *"/>
   </function>
 
-  <function name="glNormalStream3bATI">
+  <function name="NormalStream3bATI">
     <param name="stream" type="GLenum"/>
     <param name="nx" type="GLbyte"/>
     <param name="ny" type="GLbyte"/>
     <param name="nz" type="GLbyte"/>
   </function>
 
-  <function name="glNormalStream3bvATI">
+  <function name="NormalStream3bvATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLbyte *"/>
   </function>
 
-  <function name="glNormalStream3sATI">
+  <function name="NormalStream3sATI">
     <param name="stream" type="GLenum"/>
     <param name="nx" type="GLshort"/>
     <param name="ny" type="GLshort"/>
     <param name="nz" type="GLshort"/>
   </function>
 
-  <function name="glNormalStream3svATI">
+  <function name="NormalStream3svATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLshort *"/>
   </function>
 
-  <function name="glNormalStream3iATI">
+  <function name="NormalStream3iATI">
     <param name="stream" type="GLenum"/>
     <param name="nx" type="GLint"/>
     <param name="ny" type="GLint"/>
     <param name="nz" type="GLint"/>
   </function>
 
-  <function name="glNormalStream3ivATI">
+  <function name="NormalStream3ivATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLint *"/>
   </function>
 
-  <function name="glNormalStream3fATI">
+  <function name="NormalStream3fATI">
     <param name="stream" type="GLenum"/>
     <param name="nx" type="GLfloat"/>
     <param name="ny" type="GLfloat"/>
     <param name="nz" type="GLfloat"/>
   </function>
 
-  <function name="glNormalStream3fvATI">
+  <function name="NormalStream3fvATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLfloat *"/>
   </function>
 
-  <function name="glNormalStream3dATI">
+  <function name="NormalStream3dATI">
     <param name="stream" type="GLenum"/>
     <param name="nx" type="GLdouble"/>
     <param name="ny" type="GLdouble"/>
     <param name="nz" type="GLdouble"/>
   </function>
 
-  <function name="glNormalStream3dvATI">
+  <function name="NormalStream3dvATI">
     <param name="stream" type="GLenum"/>
     <param name="coords" type="const GLdouble *"/>
   </function>
 
-  <function name="glClientActiveVertexStreamATI">
+  <function name="ClientActiveVertexStreamATI">
     <param name="stream" type="GLenum"/>
   </function>
 
-  <function name="glVertexBlendEnviATI">
+  <function name="VertexBlendEnviATI">
     <param name="pname" type="GLenum"/>
     <param name="param" type="GLint"/>
   </function>
 
-  <function name="glVertexBlendEnvfATI">
+  <function name="VertexBlendEnvfATI">
     <param name="pname" type="GLenum"/>
     <param name="param" type="GLfloat"/>
   </function>

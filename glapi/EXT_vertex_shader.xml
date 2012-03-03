@@ -14,16 +14,16 @@
   </function>
 
   <function name="BindVertexShaderEXT">
-    <param name="id" type="GLGLuint"/>
+    <param name="id" type="GLuint"/>
   </function>
 
   <function name="GenVertexShadersEXT">
-    <param name="range" type="GLGLuint"/>
+    <param name="range" type="GLuint"/>
     <return type="GLuint"/>
   </function>
 
   <function name="DeleteVertexShaderEXT">
-    <param name="id" type="GLGLuint"/>
+    <param name="id" type="GLuint"/>
   </function>
 
   <function name="ShaderOp1EXT">
@@ -61,8 +61,8 @@
     <param name="in" type="GLuint"/>
     <param name="outX" type="GLenum"/>
     <param name="outY" type="GLenum"/>
-    <param name="outW" type="GLenum GLoutZ
- GLenum"/>
+    <param name="outW" type="GLenum"/>
+    <param name="outZ" type="GLenum"/>
   </function>
 
   <function name="InsertComponentEXT">
@@ -97,10 +97,44 @@
     <param name="addr" type="GLvoid *"/>
   </function>
 
-  <function name="vEXT">
+  <function name="VariantbvEXT">
     <param name="id" type="GLuint"/>
-    <param name="addr" type="GLT *"/>
-    <return type="GLvoid GLVariant{bsifd GLubusui}"/>
+    <param name="addr" type="const GLbyte *"/>
+  </function>
+
+  <function name="VariantsvEXT">
+    <param name="id" type="GLuint"/>
+    <param name="addr" type="const GLshort *"/>
+  </function>
+
+  <function name="VariantivEXT">
+    <param name="id" type="GLuint"/>
+    <param name="addr" type="const GLint *"/>
+  </function>
+
+  <function name="VariantfvEXT">
+    <param name="id" type="GLuint"/>
+    <param name="addr" type="const GLfloat *"/>
+  </function>
+
+  <function name="VariantdvEXT">
+    <param name="id" type="GLuint"/>
+    <param name="addr" type="const GLdouble *"/>
+  </function>
+
+  <function name="VariantubvEXT">
+    <param name="id" type="GLuint"/>
+    <param name="addr" type="const GLubyte *"/>
+  </function>
+
+  <function name="VariantusvEXT">
+    <param name="id" type="GLuint"/>
+    <param name="addr" type="const GLushort *"/>
+  </function>
+
+  <function name="VariantuivEXT">
+    <param name="id" type="GLuint"/>
+    <param name="addr" type="const GLuint *"/>
   </function>
 
   <function name="VariantPointerEXT">
@@ -175,7 +209,7 @@
   <function name="GetVariantPointervEXT">
     <param name="id" type="GLuint"/>
     <param name="value" type="GLenum"/>
-    <param name="data" type="GLvoid GL**"/>
+    <param name="data" type="GLvoid **"/>
   </function>
 
   <function name="GetInvariantBooleanvEXT">
