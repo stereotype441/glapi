@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_gpu_shader5" number="389">
+
+  <function name="Uniform1i64NV">
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLint64EXT"/>
+  </function>
+
+  <function name="Uniform2i64NV">
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLint64EXT"/>
+    <param name="y" type="GLint64EXT"/>
+  </function>
+
+  <function name="Uniform3i64NV">
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLint64EXT"/>
+    <param name="y" type="GLint64EXT"/>
+    <param name="z" type="GLint64EXT"/>
+  </function>
+
+  <function name="Uniform4i64NV">
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLint64EXT"/>
+    <param name="y" type="GLint64EXT"/>
+    <param name="z" type="GLint64EXT"/>
+    <param name="w" type="GLint64EXT"/>
+  </function>
+
+  <function name="Uniform1i64vNV">
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLint64EXT *"/>
+  </function>
+
+  <function name="Uniform2i64vNV">
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLint64EXT *"/>
+  </function>
+
+  <function name="Uniform3i64vNV">
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLint64EXT *"/>
+  </function>
+
+  <function name="Uniform4i64vNV">
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLint64EXT *"/>
+  </function>
+
+  <function name="Uniform1ui64NV">
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLuint64EXT"/>
+  </function>
+
+  <function name="Uniform2ui64NV">
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLuint64EXT"/>
+    <param name="y" type="GLuint64EXT"/>
+  </function>
+
+  <function name="Uniform3ui64NV">
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLuint64EXT"/>
+    <param name="y" type="GLuint64EXT"/>
+    <param name="z" type="GLuint64EXT"/>
+  </function>
+
+  <function name="Uniform4ui64NV">
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLuint64EXT"/>
+    <param name="y" type="GLuint64EXT"/>
+    <param name="z" type="GLuint64EXT"/>
+    <param name="w" type="GLuint64EXT"/>
+  </function>
+
+  <function name="Uniform1ui64vNV">
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLuint64EXT *"/>
+  </function>
+
+  <function name="Uniform2ui64vNV">
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLuint64EXT *"/>
+  </function>
+
+  <function name="Uniform3ui64vNV">
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLuint64EXT *"/>
+  </function>
+
+  <function name="Uniform4ui64vNV">
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLuint64EXT *"/>
+  </function>
+
+  <function name="GetUniformi64vNV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="params" type="GLint64EXT *"/>
+  </function>
+
+  <function name="GetUniformui64vNV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="params" type="GLuint64EXT *"/>
+  </function>
+
+  <function name="ProgramUniform1i64NV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLint64EXT"/>
+  </function>
+
+  <function name="ProgramUniform2i64NV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLint64EXT"/>
+    <param name="y" type="GLint64EXT"/>
+  </function>
+
+  <function name="ProgramUniform3i64NV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLint64EXT"/>
+    <param name="y" type="GLint64EXT"/>
+    <param name="z" type="GLint64EXT"/>
+  </function>
+
+  <function name="ProgramUniform4i64NV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLint64EXT"/>
+    <param name="y" type="GLint64EXT"/>
+    <param name="z" type="GLint64EXT"/>
+    <param name="w" type="GLint64EXT"/>
+  </function>
+
+  <function name="ProgramUniform1i64vNV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLint64EXT *"/>
+  </function>
+
+  <function name="ProgramUniform2i64vNV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLint64EXT *"/>
+  </function>
+
+  <function name="ProgramUniform3i64vNV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLint64EXT *"/>
+  </function>
+
+  <function name="ProgramUniform4i64vNV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLint64EXT *"/>
+  </function>
+
+  <function name="ProgramUniform1ui64NV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLuint64EXT"/>
+  </function>
+
+  <function name="ProgramUniform2ui64NV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLuint64EXT"/>
+    <param name="y" type="GLuint64EXT"/>
+  </function>
+
+  <function name="ProgramUniform3ui64NV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLuint64EXT"/>
+    <param name="y" type="GLuint64EXT"/>
+    <param name="z" type="GLuint64EXT"/>
+  </function>
+
+  <function name="ProgramUniform4ui64NV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="x" type="GLuint64EXT"/>
+    <param name="y" type="GLuint64EXT"/>
+    <param name="z" type="GLuint64EXT"/>
+    <param name="w" type="GLuint64EXT"/>
+  </function>
+
+  <function name="ProgramUniform1ui64vNV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLuint64EXT *"/>
+  </function>
+
+  <function name="ProgramUniform2ui64vNV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLuint64EXT *"/>
+  </function>
+
+  <function name="ProgramUniform3ui64vNV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLuint64EXT *"/>
+  </function>
+
+  <function name="ProgramUniform4ui64vNV">
+    <param name="program" type="GLuint"/>
+    <param name="location" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="value" type="const GLuint64EXT *"/>
+  </function>
+
+  <enum name="INT64_NV"                                        value="0x140E"/>
+  <enum name="UNSIGNED_INT64_NV"                               value="0x140F"/>
+  <enum name="INT8_NV"                                         value="0x8FE0"/>
+  <enum name="INT8_VEC2_NV"                                    value="0x8FE1"/>
+  <enum name="INT8_VEC3_NV"                                    value="0x8FE2"/>
+  <enum name="INT8_VEC4_NV"                                    value="0x8FE3"/>
+  <enum name="INT16_NV"                                        value="0x8FE4"/>
+  <enum name="INT16_VEC2_NV"                                   value="0x8FE5"/>
+  <enum name="INT16_VEC3_NV"                                   value="0x8FE6"/>
+  <enum name="INT16_VEC4_NV"                                   value="0x8FE7"/>
+  <enum name="INT64_VEC2_NV"                                   value="0x8FE9"/>
+  <enum name="INT64_VEC3_NV"                                   value="0x8FEA"/>
+  <enum name="INT64_VEC4_NV"                                   value="0x8FEB"/>
+  <enum name="UNSIGNED_INT8_NV"                                value="0x8FEC"/>
+  <enum name="UNSIGNED_INT8_VEC2_NV"                           value="0x8FED"/>
+  <enum name="UNSIGNED_INT8_VEC3_NV"                           value="0x8FEE"/>
+  <enum name="UNSIGNED_INT8_VEC4_NV"                           value="0x8FEF"/>
+  <enum name="UNSIGNED_INT16_NV"                               value="0x8FF0"/>
+  <enum name="UNSIGNED_INT16_VEC2_NV"                          value="0x8FF1"/>
+  <enum name="UNSIGNED_INT16_VEC3_NV"                          value="0x8FF2"/>
+  <enum name="UNSIGNED_INT16_VEC4_NV"                          value="0x8FF3"/>
+  <enum name="UNSIGNED_INT64_VEC2_NV"                          value="0x8FF5"/>
+  <enum name="UNSIGNED_INT64_VEC3_NV"                          value="0x8FF6"/>
+  <enum name="UNSIGNED_INT64_VEC4_NV"                          value="0x8FF7"/>
+  <enum name="FLOAT16_NV"                                      value="0x8FF8"/>
+  <enum name="FLOAT16_VEC2_NV"                                 value="0x8FF9"/>
+  <enum name="FLOAT16_VEC3_NV"                                 value="0x8FFA"/>
+  <enum name="FLOAT16_VEC4_NV"                                 value="0x8FFB"/>
+
+</category>
+
+</OpenGLAPI>

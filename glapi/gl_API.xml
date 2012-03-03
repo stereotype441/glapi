@@ -12827,4 +12827,20 @@
 
 <xi:include href="ARB_internalformat_query.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
+<xi:include href="NV_gpu_shader5.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="PGI_vertex_hints.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_cmyka.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_imaging_DEPRECATED.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="EXT_422_pixels.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="WIN_phong_shading.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="WIN_specular_fog.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="SGIX_texture_multi_buffer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
 </OpenGLAPI>

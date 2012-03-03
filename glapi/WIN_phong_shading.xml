@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_WIN_phong_shading" number="113">
+
+  <enum name="PHONG_WIN"                  value="0x80EA"/>
+  <enum name="PHONG_HINT_WIN"             value="0x80EB"/>
+
+</category>
+
+</OpenGLAPI>

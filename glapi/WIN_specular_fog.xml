@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_WIN_specular_fog" number="114">
+
+  <enum name="FOG_SPECULAR_TEXTURE_WIN"                  value="0x80EC"/>
+
+</category>
+
+</OpenGLAPI>

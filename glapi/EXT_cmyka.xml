@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_EXT_cmyka" number="18">
+
+  <enum name="CMYK_EXT"                value="0x800C"/>
+  <enum name="CMYKA_EXT"               value="0x800D"/>
+  <enum name="PACK_CMYK_HINT_EXT"      value="0x800E"/>
+  <enum name="UNPACK_CMYK_HINT_EXT"    value="0x800F"/>
+
+</category>
+
+</OpenGLAPI>
