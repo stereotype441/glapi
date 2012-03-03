@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<!-- Note: no GLX protocol info yet. -->
+
+
+<OpenGLAPI>
+
+<category name="GL_SGIS_point_line_texgen" number="213">
+
+  <enum name="EYE_DISTANCE_TO_POINT_SGIS"	value="0x81F0"/>
+  <enum name="OBJECT_DISTANCE_TO_POINT_SGIS"	value="0x81F1"/>
+  <enum name="EYE_DISTANCE_TO_LINE_SGIS"	value="0x81F2"/>
+  <enum name="OBJECT_DISTANCE_TO_LINE_SGIS"	value="0x81F3"/>
+  <enum name="EYE_POINT_SGIS"			value="0x81F4"/>
+  <enum name="OBJECT_POINT_SGIS"		value="0x81F5"/>
+  <enum name="EYE_LINE_SGIS"			value="0x81F6"/>
+  <enum name="OBJECT_LINE_SGIS"		value="0x81F7"/>
+
+</category>
+
+</OpenGLAPI>

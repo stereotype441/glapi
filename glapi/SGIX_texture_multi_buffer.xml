@@ -5,7 +5,7 @@
 
 <category name="GL_SGIX_texture_multi_buffer" number="53">
 
-  <enum name="GL_TEXTURE_MULTI_BUFFER_HINT_SGIX"		value="0x812E"/>
+  <enum name="TEXTURE_MULTI_BUFFER_HINT_SGIX"		value="0x812E"/>
 
 </category>
 

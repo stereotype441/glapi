@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_ATI_text_fragment_shader" number="269">
+
+  <enum name="TEXT_FRAGMENT_SHADER_ATI"              value="0x8200"/>
+
+</category>
+
+</OpenGLAPI>

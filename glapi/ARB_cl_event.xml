@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_ARB_cl_event" number="103">
+
+  <function name="CreateSyncFromCLeventARB">
+    <param name="context" type="struct _cl_context *"/>
+    <param name="event" type="struct _cl_event *"/>
+    <param name="flags" type="GLbitfield"/>
+    <return type="GLsync"/>
+  </function>
+
+  <enum name="SYNC_CL_EVENT_ARB"		value="0x8240"/>
+  <enum name="SYNC_CL_EVENT_COMPLETE_ARB"	value="0x8241"/>
+
+</category>
+
+</OpenGLAPI>

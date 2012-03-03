@@ -12843,4 +12843,12 @@
 
 <xi:include href="SGIX_texture_multi_buffer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
+<xi:include href="SGIX_interlace.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="SGIS_point_line_texgen.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ATI_text_fragment_shader.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+<xi:include href="ARB_cl_event.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
 </OpenGLAPI>
