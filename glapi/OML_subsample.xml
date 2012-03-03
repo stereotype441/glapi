@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_OML_subsample" number="240">
+
+  <enum name="FORMAT_SUBSAMPLE_24_24_OML"	    value="0x8982"/>
+  <enum name="FORMAT_SUBSAMPLE_244_244_OML"	    value="0x8983"/>
+
+</category>
+
+</OpenGLAPI>

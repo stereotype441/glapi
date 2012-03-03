@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_EXT_packed_float" number="328">
+
+  <enum name="R11F_G11F_B10F_EXT"                            value="0x8C3A"/>
+  <enum name="UNSIGNED_INT_10F_11F_11F_REV_EXT"              value="0x8C3B"/>
+  <enum name="RGBA_SIGNED_COMPONENTS_EXT"                    value="0x8C3C"/>
+  <enum name="WGL_TYPE_RGBA_UNSIGNED_FLOAT_EXT"              value="0x20A8"/>
+  <enum name="GLX_RGBA_UNSIGNED_FLOAT_TYPE_EXT"              value="0x20B1"/>
+  <enum name="GLX_RGBA_UNSIGNED_FLOAT_BIT_EXT"                value="0x00000008"/>
+
+</category>
+
+</OpenGLAPI>

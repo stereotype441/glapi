@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_transform_feedback" number="341">
+
+  <function name="BindBufferRangeNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="buffer" type="GLuint"/>
+    <param name="offset" type="GLintptr"/>
+    <param name="size" type="GLsizeiptr"/>
+  </function>
+
+  <function name="BindBufferOffsetNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="buffer" type="GLuint"/>
+    <param name="offset" type="GLintptr"/>
+  </function>
+
+  <function name="BindBufferBaseNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="buffer" type="GLuint"/>
+  </function>
+
+  <function name="TransformFeedbackAttribsNV">
+    <param name="count" type="GLsizei"/>
+    <param name="attribs" type="const GLint *"/>
+    <param name="bufferMode" type="GLenum"/>
+  </function>
+
+  <function name="TransformFeedbackVaryingsNV">
+    <param name="program" type="GLuint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="locations" type="const GLint *"/>
+    <param name="bufferMode" type="GLenum"/>
+  </function>
+
+  <function name="BeginTransformFeedbackNV">
+    <param name="primitiveMode" type="GLenum"/>
+  </function>
+
+  <function name="EndTransformFeedbackNV">
+  </function>
+
+  <function name="GetVaryingLocationNV">
+    <param name="program" type="GLuint"/>
+    <param name="name" type="const GLchar *"/>
+    <return type="GLint"/>
+  </function>
+
+  <function name="GetActiveVaryingNV">
+    <param name="program" type="GLuint"/>
+    <param name="index" type="GLuint"/>
+    <param name="bufSize" type="GLsizei"/>
+    <param name="length" type="GLsizei *"/>
+    <param name="size" type="GLsizei *"/>
+    <param name="type" type="GLenum *"/>
+    <param name="name" type="GLchar *"/>
+  </function>
+
+  <function name="ActiveVaryingNV">
+    <param name="program" type="GLuint"/>
+    <param name="name" type="const GLchar *"/>
+  </function>
+
+  <function name="GetTransformFeedbackVaryingNV">
+    <param name="program" type="GLuint"/>
+    <param name="index" type="GLuint"/>
+    <param name="location" type="GLint *"/>
+  </function>
+
+  <function name="GetIntegerIndexedvEXT">
+    <param name="param" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="values" type="GLint *"/>
+  </function>
+
+  <function name="GetBooleanIndexedvEXT">
+    <param name="param" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="values" type="GLboolean *"/>
+  </function>
+
+  <enum name="TRANSFORM_FEEDBACK_BUFFER_NV"                      value="0x8C8E"/>
+  <enum name="TRANSFORM_FEEDBACK_BUFFER_START_NV"                value="0x8C84"/>
+  <enum name="TRANSFORM_FEEDBACK_BUFFER_SIZE_NV"                 value="0x8C85"/>
+  <enum name="TRANSFORM_FEEDBACK_RECORD_NV"                      value="0x8C86"/>
+  <enum name="TRANSFORM_FEEDBACK_BUFFER_BINDING_NV"              value="0x8C8F"/>
+  <enum name="INTERLEAVED_ATTRIBS_NV"                            value="0x8C8C"/>
+  <enum name="SEPARATE_ATTRIBS_NV"                               value="0x8C8D"/>
+  <enum name="PRIMITIVES_GENERATED_NV"                           value="0x8C87"/>
+  <enum name="TRANSFORM_FEEDBACK_PRIMITIVES_WRITTEN_NV"          value="0x8C88"/>
+  <enum name="RASTERIZER_DISCARD_NV"                             value="0x8C89"/>
+  <enum name="MAX_TRANSFORM_FEEDBACK_INTERLEAVED_COMPONENTS_NV"  value="0x8C8A"/>
+  <enum name="MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS_NV"        value="0x8C8B"/>
+  <enum name="MAX_TRANSFORM_FEEDBACK_SEPARATE_COMPONENTS_NV"     value="0x8C80"/>
+  <enum name="TRANSFORM_FEEDBACK_ATTRIBS_NV"                     value="0x8C7E"/>
+  <enum name="ACTIVE_VARYINGS_NV"                                value="0x8C81"/>
+  <enum name="ACTIVE_VARYING_MAX_LENGTH_NV"                      value="0x8C82"/>
+  <enum name="TRANSFORM_FEEDBACK_VARYINGS_NV"                    value="0x8C83"/>
+  <enum name="TRANSFORM_FEEDBACK_BUFFER_MODE_NV"                 value="0x8C7F"/>
+  <enum name="BACK_PRIMARY_COLOR_NV"                             value="0x8C77"/>
+  <enum name="BACK_SECONDARY_COLOR_NV"                           value="0x8C78"/>
+  <enum name="TEXTURE_COORD_NV"                                  value="0x8C79"/>
+  <enum name="CLIP_DISTANCE_NV"                                  value="0x8C7A"/>
+  <enum name="VERTEX_ID_NV"                                      value="0x8C7B"/>
+  <enum name="PRIMITIVE_ID_NV"                                   value="0x8C7C"/>
+  <enum name="GENERIC_ATTRIB_NV"                                 value="0x8C7D"/>
+  <enum name="POINT_SIZE"                                        value="0x0B11"/>
+  <enum name="FOG_COORDINATE"                                    value="0x8451"/>
+  <enum name="SECONDARY_COLOR_NV"                                value="0x852D"/>
+  <enum name="PRIMARY_COLOR"                                     value="0x8577"/>
+  <enum name="POSITION"                                          value="0x1203"/>
+  <enum name="LAYER_NV"                                          value="0x8DAA"/>
+  <enum name="UNSIGNED_INT_VEC2_EXT"                             value="0x8DC6"/>
+  <enum name="UNSIGNED_INT_VEC3_EXT"                             value="0x8DC7"/>
+  <enum name="UNSIGNED_INT_VEC4_EXT"                             value="0x8DC8"/>
+
+</category>
+
+</OpenGLAPI>

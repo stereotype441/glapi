@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_OML_interlace" number="239">
+
+  <enum name="INTERLACE_OML"				value="0x8980"/>
+  <enum name="INTERLACE_READ_OML"			value="0x8981"/>
+
+</category>
+
+</OpenGLAPI>

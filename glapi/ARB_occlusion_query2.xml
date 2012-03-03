@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_ARB_occlusion_query2" number="80">
+
+  <enum name="ANY_SAMPLES_PASSED"                              value="0x8C2F"/>
+
+</category>
+
+</OpenGLAPI>

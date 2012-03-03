@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_APPLE_rgb_422">
+
+  <enum name="RGB_422_APPLE"                 value="0x8A1F"/>
+  <enum name="UNSIGNED_SHORT_8_8_APPLE"        value="0x85BA"/>
+  <enum name="UNSIGNED_SHORT_8_8_REV_APPLE"    value="0x85BB"/>
+
+</category>
+
+</OpenGLAPI>

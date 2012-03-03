@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_ARB_timer_query" number="85">
+
+  <function name="QueryCounter">
+    <param name="id" type="GLuint"/>
+    <param name="target" type="GLenum"/>
+  </function>
+
+  <function name="GetQueryObjecti64v">
+    <param name="id" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLint64 *"/>
+  </function>
+
+  <function name="GetQueryObjectui64v">
+    <param name="id" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <param name="params" type="GLuint64 *"/>
+  </function>
+
+  <enum name="TIME_ELAPSED"                                   value="0x88BF"/>
+  <enum name="TIMESTAMP"                                      value="0x8E28"/>
+
+</category>
+
+</OpenGLAPI>

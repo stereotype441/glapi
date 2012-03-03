@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_OML_resample" number="241">
+
+  <enum name="PACK_RESAMPLE_OML"		    value="0x8984"/>
+  <enum name="UNPACK_RESAMPLE_OML"		    value="0x8985"/>
+  <enum name="RESAMPLE_REPLICATE_OML"		    value="0x8986"/>
+  <enum name="RESAMPLE_ZERO_FILL_OML"		    value="0x8987"/>
+  <enum name="RESAMPLE_AVERAGE_OML"		    value="0x8988"/>
+  <enum name="RESAMPLE_DECIMATE_OML"		    value="0x8989"/>
+  <enum name="RESAMPLE_AVERAGE_OML"		    value="0x8988"/>
+
+</category>
+
+</OpenGLAPI>

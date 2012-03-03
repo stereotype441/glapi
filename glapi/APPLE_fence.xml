@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_APPLE_fence" number="272">
+
+  <function name="GenFencesAPPLE">
+    <param name="n" type="GLsizei"/>
+    <param name="fences" type="GLuint *"/>
+  </function>
+
+  <function name="DeleteFencesAPPLE">
+    <param name="n" type="GLsizei"/>
+    <param name="fences" type="const GLuint *"/>
+  </function>
+
+  <function name="SetFenceAPPLE">
+    <param name="fence" type="GLuint"/>
+  </function>
+
+  <function name="IsFenceAPPLE">
+    <param name="fence" type="GLuint"/>
+    <return type="GLboolean"/>
+  </function>
+
+  <function name="TestFenceAPPLE">
+    <param name="fence" type="GLuint"/>
+    <return type="GLboolean"/>
+  </function>
+
+  <function name="FinishFenceAPPLE">
+    <param name="fence" type="GLuint"/>
+  </function>
+
+  <function name="TestObjectAPPLE">
+    <param name="object" type="GLenum"/>
+    <param name="name" type="GLuint"/>
+    <return type="GLboolean"/>
+  </function>
+
+  <function name="FinishObjectAPPLE">
+    <param name="object" type="GLenum"/>
+    <param name="name" type="GLint"/>
+  </function>
+
+  <enum name="DRAW_PIXELS_APPLE"                    value="0x8A0A"/>
+  <enum name="FENCE_APPLE"                          value="0x8A0B"/>
+
+</category>
+
+</OpenGLAPI>

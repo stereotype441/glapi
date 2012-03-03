@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_APPLE_vertex_program_evaluators" number="369">
+
+  <function name="EnableVertexAttribAPPLE">
+    <param name="index" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+  </function>
+
+  <function name="DisableVertexAttribAPPLE">
+    <param name="index" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+  </function>
+
+  <function name="IsVertexAttribEnabledAPPLE">
+    <param name="index" type="GLuint"/>
+    <param name="pname" type="GLenum"/>
+    <return type="GLboolean"/>
+  </function>
+
+  <function name="MapVertexAttrib1dAPPLE">
+    <param name="index" type="GLuint"/>
+    <param name="size" type="GLuint"/>
+    <param name="u1" type="GLdouble"/>
+    <param name="u2" type="GLdouble"/>
+    <param name="stride" type="GLint"/>
+    <param name="order" type="GLint"/>
+    <param name="points" type="const GLdouble *"/>
+  </function>
+
+  <function name="MapVertexAttrib1fAPPLE">
+    <param name="index" type="GLuint"/>
+    <param name="size" type="GLuint"/>
+    <param name="u1" type="GLfloat"/>
+    <param name="u2" type="GLfloat"/>
+    <param name="stride" type="GLint"/>
+    <param name="order" type="GLint"/>
+    <param name="points" type="const GLfloat *"/>
+  </function>
+
+  <function name="MapVertexAttrib2dAPPLE">
+    <param name="index" type="GLuint"/>
+    <param name="size" type="GLuint"/>
+    <param name="u1" type="GLdouble"/>
+    <param name="u2" type="GLdouble"/>
+    <param name="ustride" type="GLint"/>
+    <param name="uorder" type="GLint"/>
+    <param name="v1" type="GLdouble"/>
+    <param name="v2" type="GLdouble"/>
+    <param name="vstride" type="GLint"/>
+    <param name="vorder" type="GLint"/>
+    <param name="points" type="const GLdouble *"/>
+  </function>
+
+  <function name="MapVertexAttrib2fAPPLE">
+    <param name="index" type="GLuint"/>
+    <param name="size" type="GLuint"/>
+    <param name="u1" type="GLfloat"/>
+    <param name="u2" type="GLfloat"/>
+    <param name="ustride" type="GLint"/>
+    <param name="uorder" type="GLint"/>
+    <param name="v1" type="GLfloat"/>
+    <param name="v2" type="GLfloat"/>
+    <param name="vstride" type="GLint"/>
+    <param name="vorder" type="GLint"/>
+    <param name="points" type="const GLfloat *"/>
+  </function>
+
+  <enum name="VERTEX_ATTRIB_MAP1_APPLE"                      value="0x8A00"/>
+  <enum name="VERTEX_ATTRIB_MAP2_APPLE"                      value="0x8A01"/>
+  <enum name="VERTEX_ATTRIB_MAP1_SIZE_APPLE"                 value="0x8A02"/>
+  <enum name="VERTEX_ATTRIB_MAP1_COEFF_APPLE"                value="0x8A03"/>
+  <enum name="VERTEX_ATTRIB_MAP1_ORDER_APPLE"                value="0x8A04"/>
+  <enum name="VERTEX_ATTRIB_MAP1_DOMAIN_APPLE"               value="0x8A05"/>
+  <enum name="VERTEX_ATTRIB_MAP2_SIZE_APPLE"                 value="0x8A06"/>
+  <enum name="VERTEX_ATTRIB_MAP2_COEFF_APPLE"                value="0x8A07"/>
+  <enum name="VERTEX_ATTRIB_MAP2_ORDER_APPLE"                value="0x8A08"/>
+  <enum name="VERTEX_ATTRIB_MAP2_DOMAIN_APPLE"               value="0x8A09"/>
+
+</category>
+
+</OpenGLAPI>

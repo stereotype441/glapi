@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_APPLE_aux_depth_stencil" number="370">
+
+  <enum name="AUX_DEPTH_STENCIL_APPLE"          value="0x8A14"/>
+
+</category>
+
+</OpenGLAPI>

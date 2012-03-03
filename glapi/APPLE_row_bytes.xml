@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_APPLE_row_bytes" number="372">
+
+  <enum name="PACK_ROW_BYTES_APPLE"          value="0x8A15"/>
+  <enum name="UNPACK_ROW_BYTES_APPLE"        value="0x8A16"/>
+
+</category>
+
+</OpenGLAPI>

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_geometry_program4" number="323">
+
+  <function name="ProgramVertexLimitNV">
+    <param name="target" type="GLenum"/>
+    <param name="limit" type="GLint"/>
+  </function>
+
+  <function name="FramebufferTextureEXT">
+    <param name="target" type="GLenum"/>
+    <param name="attachment" type="GLenum"/>
+    <param name="texture" type="GLuint"/>
+    <param name="level" type="GLint"/>
+  </function>
+
+  <function name="FramebufferTextureLayerEXT">
+    <param name="target" type="GLenum"/>
+    <param name="attachment" type="GLenum"/>
+    <param name="texture" type="GLuint"/>
+    <param name="level" type="GLint"/>
+    <param name="layer" type="GLint"/>
+  </function>
+
+  <function name="FramebufferTextureFaceEXT">
+    <param name="target" type="GLenum"/>
+    <param name="attachment" type="GLenum"/>
+    <param name="texture" type="GLuint"/>
+    <param name="level" type="GLint"/>
+    <param name="face" type="GLenum"/>
+  </function>
+
+  <enum name="GEOMETRY_PROGRAM_NV"                             value="0x8C26"/>
+  <enum name="MAX_PROGRAM_OUTPUT_VERTICES_NV"                  value="0x8C27"/>
+  <enum name="MAX_PROGRAM_TOTAL_OUTPUT_COMPONENTS_NV"          value="0x8C28"/>
+  <enum name="GEOMETRY_VERTICES_OUT_EXT"                       value="0x8DDA"/>
+  <enum name="GEOMETRY_INPUT_TYPE_EXT"                         value="0x8DDB"/>
+  <enum name="GEOMETRY_OUTPUT_TYPE_EXT"                        value="0x8DDC"/>
+  <enum name="MAX_GEOMETRY_TEXTURE_IMAGE_UNITS_EXT"            value="0x8C29"/>
+  <enum name="LINES_ADJACENCY_EXT"                             value="0xA"/>
+  <enum name="LINE_STRIP_ADJACENCY_EXT"                        value="0xB"/>
+  <enum name="TRIANGLES_ADJACENCY_EXT"                         value="0xC"/>
+  <enum name="TRIANGLE_STRIP_ADJACENCY_EXT"                    value="0xD"/>
+  <enum name="FRAMEBUFFER_INCOMPLETE_LAYER_TARGETS_EXT"        value="0x8DA8"/>
+  <enum name="FRAMEBUFFER_INCOMPLETE_LAYER_COUNT_EXT"          value="0x8DA9"/>
+  <enum name="FRAMEBUFFER_ATTACHMENT_LAYERED_EXT"              value="0x8DA7"/>
+  <enum name="FRAMEBUFFER_ATTACHMENT_TEXTURE_LAYER_EXT"        value="0x8CD4"/>
+  <enum name="PROGRAM_POINT_SIZE_EXT"                          value="0x8642"/>
+
+</category>
+
+</OpenGLAPI>

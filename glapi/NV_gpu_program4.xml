@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_gpu_program4" number="322">
+
+  <function name="ProgramLocalParameterI4iNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="x" type="GLint"/>
+    <param name="y" type="GLint"/>
+    <param name="z" type="GLint"/>
+    <param name="w" type="GLint"/>
+  </function>
+
+  <function name="ProgramLocalParameterI4ivNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="params" type="const GLint *"/>
+  </function>
+
+  <function name="ProgramLocalParametersI4ivNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="params" type="const GLint *"/>
+  </function>
+
+  <function name="ProgramLocalParameterI4uiNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="x" type="GLuint"/>
+    <param name="y" type="GLuint"/>
+    <param name="z" type="GLuint"/>
+    <param name="w" type="GLuint"/>
+  </function>
+
+  <function name="ProgramLocalParameterI4uivNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="params" type="const GLuint *"/>
+  </function>
+
+  <function name="ProgramLocalParametersI4uivNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="params" type="const GLuint *"/>
+  </function>
+
+  <function name="ProgramEnvParameterI4iNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="x" type="GLint"/>
+    <param name="y" type="GLint"/>
+    <param name="z" type="GLint"/>
+    <param name="w" type="GLint"/>
+  </function>
+
+  <function name="ProgramEnvParameterI4ivNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="params" type="const GLint *"/>
+  </function>
+
+  <function name="ProgramEnvParametersI4ivNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="params" type="const GLint *"/>
+  </function>
+
+  <function name="ProgramEnvParameterI4uiNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="x" type="GLuint"/>
+    <param name="y" type="GLuint"/>
+    <param name="z" type="GLuint"/>
+    <param name="w" type="GLuint"/>
+  </function>
+
+  <function name="ProgramEnvParameterI4uivNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="params" type="const GLuint *"/>
+  </function>
+
+  <function name="ProgramEnvParametersI4uivNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="count" type="GLsizei"/>
+    <param name="params" type="const GLuint *"/>
+  </function>
+
+  <function name="GetProgramLocalParameterIivNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="params" type="GLint *"/>
+  </function>
+
+  <function name="GetProgramLocalParameterIuivNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="params" type="GLuint *"/>
+  </function>
+
+  <function name="GetProgramEnvParameterIivNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="params" type="GLint *"/>
+  </function>
+
+  <function name="GetProgramEnvParameterIuivNV">
+    <param name="target" type="GLenum"/>
+    <param name="index" type="GLuint"/>
+    <param name="params" type="GLuint *"/>
+  </function>
+
+  <enum name="MIN_PROGRAM_TEXEL_OFFSET_EXT"                    value="0x8904"/>
+  <enum name="MAX_PROGRAM_TEXEL_OFFSET_EXT"                    value="0x8905"/>
+  <enum name="PROGRAM_ATTRIB_COMPONENTS_NV"                    value="0x8906"/>
+  <enum name="PROGRAM_RESULT_COMPONENTS_NV"                    value="0x8907"/>
+  <enum name="MAX_PROGRAM_ATTRIB_COMPONENTS_NV"                value="0x8908"/>
+  <enum name="MAX_PROGRAM_RESULT_COMPONENTS_NV"                value="0x8909"/>
+  <enum name="MAX_PROGRAM_GENERIC_ATTRIBS_NV"                  value="0x8DA5"/>
+  <enum name="MAX_PROGRAM_GENERIC_RESULTS_NV"                  value="0x8DA6"/>
+
+</category>
+
+</OpenGLAPI>

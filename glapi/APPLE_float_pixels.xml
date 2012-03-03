@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_APPLE_float_pixels" number="368">
+
+  <enum name="HALF_APPLE"                      value="0x140B"/>
+  <enum name="COLOR_FLOAT_APPLE"               value="0x8A0F"/>
+  <enum name="RGBA_FLOAT32_APPLE"              value="0x8814"/>
+  <enum name="RGB_FLOAT32_APPLE"               value="0x8815"/>
+  <enum name="ALPHA_FLOAT32_APPLE"             value="0x8816"/>
+  <enum name="INTENSITY_FLOAT32_APPLE"         value="0x8817"/>
+  <enum name="LUMINANCE_FLOAT32_APPLE"         value="0x8818"/>
+  <enum name="LUMINANCE_ALPHA_FLOAT32_APPLE"   value="0x8819"/>
+  <enum name="RGBA_FLOAT16_APPLE"              value="0x881A"/>
+  <enum name="RGB_FLOAT16_APPLE"               value="0x881B"/>
+  <enum name="ALPHA_FLOAT16_APPLE"             value="0x881C"/>
+  <enum name="INTENSITY_FLOAT16_APPLE"         value="0x881D"/>
+  <enum name="LUMINANCE_FLOAT16_APPLE"         value="0x881E"/>
+  <enum name="LUMINANCE_ALPHA_FLOAT16_APPLE"   value="0x881F"/>
+
+</category>
+
+</OpenGLAPI>

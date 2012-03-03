@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_EXT_stencil_clear_tag" number="314">
+
+  <function name="StencilClearTagEXT">
+    <param name="stencilTagBits" type="GLsizei"/>
+    <param name="stencilClearTag" type="GLuint"/>
+  </function>
+
+  <enum name="STENCIL_TAG_BITS_EXT"                value="0x88F2"/>
+  <enum name="STENCIL_CLEAR_TAG_VALUE_EXT"         value="0x88F3"/>
+
+</category>
+
+</OpenGLAPI>

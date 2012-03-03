@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_APPLE_element_array" number="271">
+
+  <function name="ElementPointerAPPLE">
+    <param name="type" type="GLenum"/>
+    <param name="pointer" type="const GLvoid *"/>
+  </function>
+
+  <function name="DrawElementArrayAPPLE">
+    <param name="mode" type="GLenum"/>
+    <param name="first" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+  </function>
+
+  <function name="DrawRangeElementArrayAPPLE">
+    <param name="mode" type="GLenum"/>
+    <param name="start" type="GLuint"/>
+    <param name="end" type="GLuint"/>
+    <param name="first" type="GLint"/>
+    <param name="count" type="GLsizei"/>
+  </function>
+
+  <function name="MultiDrawElementArrayAPPLE">
+    <param name="mode" type="GLenum"/>
+    <param name="first" type="const GLint *"/>
+    <param name="count" type="const GLsizei *"/>
+    <param name="primcount" type="GLsizei"/>
+  </function>
+
+  <function name="MultiDrawRangeElementArrayAPPLE">
+    <param name="mode" type="GLenum"/>
+    <param name="start" type="GLuint"/>
+    <param name="end" type="GLuint"/>
+    <param name="first" type="const GLint *"/>
+    <param name="count" type="const GLsizei *"/>
+    <param name="primcount" type="GLsizei"/>
+  </function>
+
+  <enum name="ELEMENT_ARRAY_APPLE"             value="0x8A0C"/>
+  <enum name="ELEMENT_ARRAY_TYPE_APPLE"        value="0x8A0D"/>
+  <enum name="ELEMENT_ARRAY_POINTER_APPLE"     value="0x8A0E"/>
+
+</category>
+
+</OpenGLAPI>

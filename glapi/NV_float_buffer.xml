@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE OpenGLAPI SYSTEM "gl_API.dtd">
+
+<OpenGLAPI>
+
+<category name="GL_NV_float_buffer" number="281">
+
+  <enum name="FLOAT_R_NV"                                      value="0x8880"/>
+  <enum name="FLOAT_RG_NV"                                     value="0x8881"/>
+  <enum name="FLOAT_RGB_NV"                                    value="0x8882"/>
+  <enum name="FLOAT_RGBA_NV"                                   value="0x8883"/>
+  <enum name="FLOAT_R16_NV"                                    value="0x8884"/>
+  <enum name="FLOAT_R32_NV"                                    value="0x8885"/>
+  <enum name="FLOAT_RG16_NV"                                   value="0x8886"/>
+  <enum name="FLOAT_RG32_NV"                                   value="0x8887"/>
+  <enum name="FLOAT_RGB16_NV"                                  value="0x8888"/>
+  <enum name="FLOAT_RGB32_NV"                                  value="0x8889"/>
+  <enum name="FLOAT_RGBA16_NV"                                 value="0x888A"/>
+  <enum name="FLOAT_RGBA32_NV"                                 value="0x888B"/>
+  <enum name="TEXTURE_FLOAT_COMPONENTS_NV"                     value="0x888C"/>
+  <enum name="FLOAT_CLEAR_COLOR_VALUE_NV"                      value="0x888D"/>
+  <enum name="FLOAT_RGBA_MODE_NV"                              value="0x888E"/>
+  <enum name="WGL_FLOAT_COMPONENTS_NV"                         value="0x20B0"/>
+  <enum name="WGL_BIND_TO_TEXTURE_RECTANGLE_FLOAT_R_NV"        value="0x20B1"/>
+  <enum name="WGL_BIND_TO_TEXTURE_RECTANGLE_FLOAT_RG_NV"       value="0x20B2"/>
+  <enum name="WGL_BIND_TO_TEXTURE_RECTANGLE_FLOAT_RGB_NV"      value="0x20B3"/>
+  <enum name="WGL_BIND_TO_TEXTURE_RECTANGLE_FLOAT_RGBA_NV"     value="0x20B4"/>
+  <enum name="WGL_TEXTURE_FLOAT_R_NV"                          value="0x20B5"/>
+  <enum name="WGL_TEXTURE_FLOAT_RG_NV"                         value="0x20B6"/>
+  <enum name="WGL_TEXTURE_FLOAT_RGB_NV"                        value="0x20B7"/>
+  <enum name="WGL_TEXTURE_FLOAT_RGBA_NV"                       value="0x20B8"/>
+  <enum name="GLX_FLOAT_COMPONENTS_NV"                         value="0x20B0"/>
+
+</category>
+
+</OpenGLAPI>
