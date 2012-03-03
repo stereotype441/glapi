@@ -12851,4 +12851,6 @@
 
 <xi:include href="ARB_cl_event.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
 
+<xi:include href="ARB_get_program_binary.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
 </OpenGLAPI>
