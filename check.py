@@ -112,8 +112,15 @@ def check_type_usage(function, typ, gl_types):
     if len(type_components) == 0:
         error('{0} uses empty type'.format(short_desc(function)))
     i = 0
+    canonical_name = ''
     while i < len(type_components):
         component = type_components[i]
+        if canonical_name:
+            if canonical_name.endswith('*') and component == '*':
+                pass # No space between *'s
+            else:
+                canonical_name += ' '
+        canonical_name += component
         if (component in ('const', '*') or
             component in gl_types or
             component in BASE_TYPES):
@@ -125,6 +132,7 @@ def check_type_usage(function, typ, gl_types):
                         short_desc(function), typ))
                 break
             else:
+                canonical_name += ' ' + type_components[i]
                 if type_components[i] not in RECOGNIZED_STRUCTS:
                     error('{0} uses unrecognized struct {1}'.format(
                             short_desc(function), type_components[i]))
@@ -132,25 +140,36 @@ def check_type_usage(function, typ, gl_types):
             error('{0} uses unrecognized type {1!r}'.format(
                     short_desc(function), component))
         i += 1
+    return canonical_name
 
 
 def check_functions(api_xml, gl_types):
-    name_to_xml_dict = collections.defaultdict(list)
+    name_to_canonical_type = collections.defaultdict(list)
     for function_xml in api_xml.findall('.//function'):
         name = function_xml.attrib['name']
         check_function_name(name)
-        name_to_xml_dict[name].append(function_xml)
+        canonical_param_types = []
         for param_xml in function_xml.findall('param'):
-            check_type_usage(function_xml, param_xml.attrib['type'],
-                             gl_types)
+            canonical_param_types.append(
+                check_type_usage(function_xml, param_xml.attrib['type'],
+                                 gl_types))
         return_xmls = function_xml.findall('return')
+        canonical_return_type = 'void'
         if len(return_xmls) > 1:
             error('{0} declares multiple returns'.format(
                     short_desc(function_xml)))
         for return_xml in return_xmls:
-            check_type_usage(function_xml, return_xml.attrib['type'],
-                             gl_types)
-    print 'Found {0} unique function names'.format(len(name_to_xml_dict))
+            canonical_return_type = check_type_usage(
+                function_xml, return_xml.attrib['type'], gl_types)
+        function_type = '{0}({1})'.format(
+            canonical_return_type, ', '.join(canonical_param_types))
+        if (name in name_to_canonical_type and
+            name_to_canonical_type[name] != function_type):
+            error('Inconsistent types for {0}:\n  {1}\n  {2}'.format(
+                    short_desc(function_xml), name_to_canonical_type[name],
+                    function_type))
+        name_to_canonical_type[name] = function_type
+    print 'Found {0} unique function names'.format(len(name_to_canonical_type))
 
 
 if __name__ == '__main__':
