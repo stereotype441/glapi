@@ -5,6 +5,8 @@
 
 <category name="GL_AMD_debug_output" number="395">
 
+  <type name="DEBUGPROCAMD" size="8"/>
+
   <function name="DebugMessageEnableAMD">
     <param name="category" type="GLenum"/>
     <param name="severity" type="GLenum"/>
