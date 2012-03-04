@@ -51,6 +51,16 @@ def check_categories(api_xml):
             error('Invalid category: {0!r}'.format(name))
 
 
+def check_types(api_xml):
+    types = set()
+    for type_xml in api_xml.findall('.//type'):
+        name = type_xml.attrib['name']
+        if name.startswith('GL'):
+            error('Invalid type name {0!r}'.format(name))
+        types.add(name)
+    print 'Found {0} unique type names'.format(len(types))
+
+
 def check_enum_value(name, value):
     if value.endswith('u'):
         # Value ending in u is ok--this just tells the compiler the
@@ -110,6 +120,7 @@ if __name__ == '__main__':
     xml.etree.ElementInclude.include(root)
     check_nesting(root)
     check_categories(root)
+    check_types(root)
     check_enums(root)
     check_functions(root)
     if error_found:
