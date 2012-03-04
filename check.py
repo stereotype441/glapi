@@ -63,6 +63,13 @@ def check_enum_value(name, value):
     return False
 
 
+def check_enum_name(name):
+    if name.startswith('GL_'):
+        print 'Error: invalid enum name {0!r}'.format(name)
+        return False
+    return True
+
+
 def check_enums(api_xml):
     ok = True
     name_to_values_dict = collections.defaultdict(set)
@@ -70,6 +77,7 @@ def check_enums(api_xml):
         name = enum_xml.attrib['name']
         value = enum_xml.attrib['value']
         ok = check_enum_value(name, value) and ok
+        ok = check_enum_name(name) and ok
         name_to_values_dict[name].add(value)
     print 'Found {0} enum declarations'.format(len(name_to_values_dict))
     for name in sorted(name_to_values_dict.keys()):
