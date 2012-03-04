@@ -5,6 +5,9 @@
 
 <category name="GL_NV_vdpau_interop">
 
+  <!-- Synonym for GLintptr -->
+  <type name="vdpauSurfaceNV" size="4" glx_name="CARD32"/>
+
   <function name="VDPAUInitNV">
     <param name="vdpDevice" type="const GLvoid *"/>
     <param name="getProcAddress" type="const GLvoid *"/>
