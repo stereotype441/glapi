@@ -55,7 +55,7 @@
   <function name="TransformFeedbackVaryingsEXT" offset="assign">
     <param name="program" type="GLuint"/>
     <param name="count" type="GLsizei"/>
-    <param name="varyings" type="const char **"/>
+    <param name="varyings" type="const GLchar **"/>
     <param name="bufferMode" type="GLenum"/>
   </function>
 
