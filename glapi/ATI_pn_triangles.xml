@@ -8,13 +8,11 @@
   <function name="PNTrianglesiATI">
     <param name="pname" type="GLenum"/>
     <param name="param" type="GLint"/>
-    <return type=""/>
   </function>
 
   <function name="PNTrianglesfATI">
     <param name="pname" type="GLenum"/>
     <param name="param" type="GLfloat"/>
-    <return type=""/>
   </function>
 
   <enum name="PN_TRIANGLES_ATI"                         value="0x87F0"/>
