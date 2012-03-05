@@ -143,6 +143,8 @@ class Api(object):
                 param_types = []
                 param_names = []
                 for param_xml in function_xml.findall('param'):
+                    if param_xml.get('padding') == 'true':
+                        continue
                     param_types.append(
                         normalize_type(param_xml.attrib['type']))
                     param_names.append(param_xml.attrib['name'])
