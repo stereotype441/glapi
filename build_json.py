@@ -41,12 +41,7 @@ import xml.etree.ElementInclude
 def normalize_type(typ):
     tokens = [token for token in typ.replace('*', ' * ').split(' ')
               if token != '']
-    typ = ' '.join(tokens)
-    while True:
-        typ2 = typ.replace('* *', '**')
-        if typ2 == typ:
-            return typ2
-        typ = typ2
+    return ' '.join(tokens)
 
 
 def decode_enum_value(value_str):
