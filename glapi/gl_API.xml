@@ -5756,16 +5756,6 @@
 
 </category>
 
-<category name="3.0">
-  <enum name="CLAMP_VERTEX_COLOR" value="0x891A"/>
-  <enum name="CLAMP_FRAGMENT_COLOR" value="0x891B"/>
-  <enum name="ALPHA_INTEGER" value="0x8D97"/>
-</category>
-
-<category name="3.3">
-  <enum name="VERTEX_ATTRIB_ARRAY_DIVISOR" value="0x88FE"/>
-</category>
-
 <category name="4.0">
   <enum name="SAMPLE_SHADING"                 value="0x8C36"/>
   <enum name="MIN_SAMPLE_SHADING_VALUE"       value="0x8C37"/>

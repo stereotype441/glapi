@@ -464,6 +464,10 @@
     <param name="params" type="GLuint *"/>
   </function>
 
+  <enum name="CLAMP_VERTEX_COLOR" value="0x891A"/>
+  <enum name="CLAMP_FRAGMENT_COLOR" value="0x891B"/>
+  <enum name="ALPHA_INTEGER" value="0x8D97"/>
+
 </category>
 
 
@@ -583,6 +587,8 @@
     <param name="index" type="GLuint"/>
     <param name="divisor" type="GLuint"/>
   </function>
+
+  <enum name="VERTEX_ATTRIB_ARRAY_DIVISOR" value="0x88FE"/>
 
 </category>
 
