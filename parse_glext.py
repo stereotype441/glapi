@@ -64,10 +64,6 @@ class HeaderParser(object):
             elif line.startswith('#endif'):
                 self.skip_nesting -= 1
             return
-        if line.startswith('/* GL type for '):
-            return
-        if line.startswith('/* GL types for '):
-            return
         if line == '#ifndef GLEXT_64_TYPES_DEFINED':
             self.skip_nesting = 1
             return
@@ -77,13 +73,6 @@ class HeaderParser(object):
                 return
             if line.startswith('#ifndef GL_'):
                 self.start_category(line[8:])
-                return
-            if line.startswith('/**'):
-                return
-            if line.startswith('#include '):
-                return
-            if line == '#ifdef __cplusplus':
-                self.started = False
                 return
         else:
             if line.startswith('#define GL_'):
@@ -99,52 +88,11 @@ class HeaderParser(object):
             if line.startswith('/* Reuse tokens from '):
                 # TODO
                 return
-            if line.startswith("/* Don't need to reuse tokens from "):
-                return
-            if line.startswith("/* These incomplete types "):
-                return
-            if line.startswith(
-                '/* {0} just defines tokens from '.format(
-                    self.category_name[3:])):
-                return
-            if line.startswith(
-                '/* OpenGL {0} also reuses '.format(self.category_name)):
-                return
-            if line.startswith(
-                '/* OpenGL {0} reuses '.format(self.category_name)):
-                return
-            if line.startswith(
-                '/* All ARB_fragment_program entry points are shared with '):
-                return
-            if line.startswith(
-                '/* This is really a WGL extension, but '):
-                return
-            if line.startswith(
-                '* ATI does not export "GL_ATI_pixel_format_float"'):
-                return
-            if line == '*/':
-                return
-            if line.startswith(
-                '/* Some NV_fragment_program entry points are shared '):
-                return
-            if line.startswith('/* '):
-                rest = line[3:]
-                for suffix in (', but it has none */', '(no entry points) */',
-                               '*/'):
-                    if rest.endswith(suffix):
-                        rest = rest[:-len(suffix)]
-                        break
-                if ('GL_' + rest.strip()) in self.categories:
-                    return
             if line.startswith('typedef '):
                 # TODO
                 return
             if line.startswith('struct '):
                 # TODO
-                return
-            if line == '#ifdef GL_GLEXT_PROTOTYPES':
-                return
-            if line == '#endif /* GL_GLEXT_PROTOTYPES */':
                 return
             if line.startswith('GLAPI '):
                 self.handle_function(line[6:])
@@ -155,8 +103,6 @@ class HeaderParser(object):
                     enum_name = reuse_split[0]
                     self.categories[self.category_name]['enums'].add(enum_name)
                 return
-        raise Exception(
-            '{0!r} (category_name={1!r})'.format(line, self.category_name))
 
 
 def compare_data(glapi_json, parser):
