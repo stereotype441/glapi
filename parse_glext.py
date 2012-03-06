@@ -74,35 +74,34 @@ class HeaderParser(object):
             if line.startswith('#ifndef GL_'):
                 self.start_category(line[8:])
                 return
-        else:
-            if line.startswith('#define GL_'):
-                def_split = line[11:].split()
-                if len(def_split) == 2:
-                    enum_name, enum_value = def_split
-                    self.enums[enum_name] = { 'value_str': enum_value }
-                    self.categories[self.category_name]['enums'].add(enum_name)
-                    return
-            if line == '#endif':
-                self.category_name = None
+        if line.startswith('#define GL_'):
+            def_split = line[11:].split()
+            if len(def_split) == 2:
+                enum_name, enum_value = def_split
+                self.enums[enum_name] = { 'value_str': enum_value }
+                self.categories[self.category_name]['enums'].add(enum_name)
                 return
-            if line.startswith('/* Reuse tokens from '):
-                # TODO
-                return
-            if line.startswith('typedef '):
-                # TODO
-                return
-            if line.startswith('struct '):
-                # TODO
-                return
-            if line.startswith('GLAPI '):
-                self.handle_function(line[6:])
-                return
-            if line.startswith('/* reuse GL_'):
-                reuse_split = line[12:].split()
-                if len(reuse_split) == 2 and reuse_split[1] == '*/':
-                    enum_name = reuse_split[0]
-                    self.categories[self.category_name]['enums'].add(enum_name)
-                return
+        if line == '#endif':
+            self.category_name = None
+            return
+        if line.startswith('/* Reuse tokens from '):
+            # TODO
+            return
+        if line.startswith('typedef '):
+            # TODO
+            return
+        if line.startswith('struct '):
+            # TODO
+            return
+        if line.startswith('GLAPI '):
+            self.handle_function(line[6:])
+            return
+        if line.startswith('/* reuse GL_'):
+            reuse_split = line[12:].split()
+            if len(reuse_split) == 2 and reuse_split[1] == '*/':
+                enum_name = reuse_split[0]
+                self.categories[self.category_name]['enums'].add(enum_name)
+            return
 
 
 def compare_data(glapi_json, parser):
