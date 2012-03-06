@@ -6,7 +6,7 @@ import os
 import re
 
 
-FUNCTION_REGEXP = re.compile('(?P<rettype>.+) APIENTRY (?P<name>.+)\\((?P<args>[^)]+)\\);')
+FUNCTION_REGEXP = re.compile('(?P<rettype>.+) (GL)?APIENTRY (?P<name>.+)\\((?P<args>[^)]+)\\);')
 
 
 class HeaderParser(object):
@@ -17,11 +17,15 @@ class HeaderParser(object):
         self.enums = {}
         self.functions = {}
         self.skip_nesting = 0
+        self.prev = None
 
     def start_category(self, category_name):
         self.category_name = category_name
         if category_name not in self.categories:
             self.categories[category_name] = { 'enums': set(), 'functions': set() }
+
+    def end_category(self):
+        self.category_name = None
 
     def handle_function(self, decl):
         m = FUNCTION_REGEXP.match(decl)
@@ -54,6 +58,9 @@ class HeaderParser(object):
         line = line.strip()
         if line == '':
             return
+        if self.prev:
+            line = self.prev + ' ' + line
+            self.prev = None
         if not self.started:
             if line.startswith('/**'):
                 self.started = True
@@ -63,6 +70,10 @@ class HeaderParser(object):
                 self.skip_nesting += 1
             elif line.startswith('#endif'):
                 self.skip_nesting -= 1
+            return
+        if (len([x for x in line if x == '(']) >
+            len([x for x in line if x == ')'])):
+            self.prev = line
             return
         if line == '#ifndef GLEXT_64_TYPES_DEFINED':
             self.skip_nesting = 1
@@ -78,11 +89,15 @@ class HeaderParser(object):
             def_split = line[11:].split()
             if len(def_split) == 2:
                 enum_name, enum_value = def_split
+                if enum_name == 'GLEXT_VERSION':
+                    return
+                if self.category_name is None:
+                    raise Exception(enum_name)
                 self.enums[enum_name] = { 'value_str': enum_value }
                 self.categories[self.category_name]['enums'].add(enum_name)
                 return
-        if line == '#endif':
-            self.category_name = None
+        if line == '#endif' and self.category_name != 'gl_core':
+            self.end_category()
             return
         if line.startswith('/* Reuse tokens from '):
             # TODO
@@ -114,6 +129,11 @@ def compare_data(glapi_json, parser):
 
 if __name__ == '__main__':
     parser = HeaderParser()
+    parser.start_category('gl_core')
+    with open(os.path.expanduser('~/mesa/include/GL/gl.h'), 'r') as f:
+        for line in f:
+            parser.handle_line(line)
+    parser.end_category()
     with open(os.path.expanduser('~/mesa/include/GL/glext.h'), 'r') as f:
         for line in f:
             parser.handle_line(line)
