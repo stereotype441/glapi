@@ -6,7 +6,7 @@
 
 <OpenGLAPI>
 
-<category name="GL_NV_condtitional_render" number="346">
+<category name="GL_NV_conditional_render" number="346">
 
     <enum name="QUERY_WAIT_NV"               value="0x8E13"/>
     <enum name="QUERY_NO_WAIT_NV"            value="0x8E14"/>
